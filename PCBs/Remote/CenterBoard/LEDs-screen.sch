@@ -1,0 +1,174 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x11 J?
+U 1 1 5FAB2A08
+P 6350 2200
+F 0 "J?" H 6430 2242 50  0000 L CNN
+F 1 "Conn_01x11" H 6430 2151 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical_SMD_Pin1Left" H 6350 2200 50  0001 C CNN
+F 3 "~" H 6350 2200 50  0001 C CNN
+	1    6350 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 1700 6050 1700
+Wire Wire Line
+	6150 1800 6050 1800
+Wire Wire Line
+	6150 1900 6050 1900
+Wire Wire Line
+	6150 2000 6050 2000
+Wire Wire Line
+	6150 2100 6050 2100
+Wire Wire Line
+	6150 2200 6050 2200
+Wire Wire Line
+	6150 2300 6050 2300
+Wire Wire Line
+	6150 2400 6050 2400
+Wire Wire Line
+	6150 2500 6050 2500
+Wire Wire Line
+	6150 2600 6050 2600
+Wire Wire Line
+	6150 2700 6050 2700
+Text Label 6050 1700 2    50   ~ 0
+Vin
+Text Label 6050 1800 2    50   ~ 0
+3vOut
+Text Label 6050 1900 2    50   ~ 0
+GND
+Text Label 6050 2000 2    50   ~ 0
+SPI_SCLK
+Text Label 6050 2100 2    50   ~ 0
+SPI_MISO
+Text Label 6050 2200 2    50   ~ 0
+SPI_MOSI
+Text Label 6050 2300 2    50   ~ 0
+SPI_CSn_TFT
+Text Label 6050 2400 2    50   ~ 0
+TFT_RESET
+Text Label 6050 2500 2    50   ~ 0
+TFT_DC
+Text Label 6050 2600 2    50   ~ 0
+SPI_CSn_SDCard
+Text Label 6050 2700 2    50   ~ 0
+Backlight_PWM
+Text Notes 5450 2950 0    50   ~ 0
+AdaFruit 1.54" 240x240 pixel TFT display\nAdaFruit 3787
+$Comp
+L Device:LED D?
+U 1 1 5FAB543C
+P 2000 4850
+F 0 "D?" H 1993 4595 50  0000 C CNN
+F 1 "LED_ERROR" H 1993 4686 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2000 4850 50  0001 C CNN
+F 3 "~" H 2000 4850 50  0001 C CNN
+F 4 "475-1278-1-ND" H 2000 4850 50  0001 C CNN "DigiKey"
+F 5 "720-LSR976-NR-1" H 2000 4850 50  0001 C CNN "Mouser"
+	1    2000 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FAB6E69
+P 1500 4850
+F 0 "D?" H 1493 4595 50  0000 C CNN
+F 1 "LED_POWERGOOD" H 1493 4686 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1500 4850 50  0001 C CNN
+F 3 "~" H 1500 4850 50  0001 C CNN
+F 4 "475-1410-1-ND" H 1500 4850 50  0001 C CNN "DigiKey"
+F 5 "720-LGR971-KN-1" H 1500 4850 50  0001 C CNN "Mouser"
+	1    1500 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FAB8067
+P 2000 4450
+F 0 "R?" V 1900 4400 50  0000 C CNN
+F 1 "560R" V 2000 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1930 4450 50  0001 C CNN
+F 3 "~" H 2000 4450 50  0001 C CNN
+F 4 "C25796" V 2000 4450 50  0001 C CNN "LCSC"
+	1    2000 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FAB8BAC
+P 1500 4450
+F 0 "R?" V 1400 4400 50  0000 C CNN
+F 1 "560R" V 1500 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1430 4450 50  0001 C CNN
+F 3 "~" H 1500 4450 50  0001 C CNN
+F 4 "C25796" V 1500 4450 50  0001 C CNN "LCSC"
+	1    1500 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FAB91B2
+P 1500 5200
+F 0 "#PWR?" H 1500 4950 50  0001 C CNN
+F 1 "GND" V 1505 5072 50  0000 R CNN
+F 2 "" H 1500 5200 50  0001 C CNN
+F 3 "" H 1500 5200 50  0001 C CNN
+	1    1500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FAB9B44
+P 2000 5200
+F 0 "#PWR?" H 2000 4950 50  0001 C CNN
+F 1 "GND" V 2005 5072 50  0000 R CNN
+F 2 "" H 2000 5200 50  0001 C CNN
+F 3 "" H 2000 5200 50  0001 C CNN
+	1    2000 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FAB9F2B
+P 1500 4200
+F 0 "#PWR?" H 1500 4050 50  0001 C CNN
+F 1 "+3.3V" V 1515 4328 50  0000 L CNN
+F 2 "" H 1500 4200 50  0001 C CNN
+F 3 "" H 1500 4200 50  0001 C CNN
+	1    1500 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 4200 1500 4300
+Wire Wire Line
+	1500 4600 1500 4700
+Wire Wire Line
+	1500 5000 1500 5200
+Wire Wire Line
+	2000 5000 2000 5200
+Wire Wire Line
+	2000 4600 2000 4700
+Wire Wire Line
+	2000 4300 2000 4200
+Text Label 2000 4200 1    50   ~ 0
+LED_ERROR
+Text Notes 1550 5750 1    50   ~ 0
+Green
+Text Notes 2000 5750 1    50   ~ 0
+Red
+$EndSCHEMATC

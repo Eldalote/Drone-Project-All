@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -360,36 +360,9 @@ F 0 "S201" H 10050 2747 60  0000 C CNN
 F 1 "1825910-6" H 10050 2641 60  0000 C CNN
 F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 10250 2600 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 10250 2700 60  0001 L CNN
-F 4 "450-1650-ND" H 10250 2800 60  0001 L CNN "Digi-Key_PN"
-F 5 "1825910-6" H 10250 2900 60  0001 L CNN "MPN"
-F 6 "Switches" H 10250 3000 60  0001 L CNN "Category"
-F 7 "Tactile Switches" H 10250 3100 60  0001 L CNN "Family"
-F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 10250 3200 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536" H 10250 3300 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 10250 3400 60  0001 L CNN "Description"
-F 11 "TE Connectivity ALCOSWITCH Switches" H 10250 3500 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 10250 3600 60  0001 L CNN "Status"
+F 4 "450-1650-ND" H 10250 2800 60  0001 L CNN "DigiKey"
+F 5 "506-FSM4JH " H 10050 2400 50  0001 C CNN "Mouser"
 	1    10050 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Tactile-Switches:1825910-6 S202
-U 1 1 5FA37704
-P 10050 3700
-F 0 "S202" H 10050 4047 60  0000 C CNN
-F 1 "1825910-6" H 10050 3941 60  0000 C CNN
-F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 10250 3900 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 10250 4000 60  0001 L CNN
-F 4 "450-1650-ND" H 10250 4100 60  0001 L CNN "Digi-Key_PN"
-F 5 "1825910-6" H 10250 4200 60  0001 L CNN "MPN"
-F 6 "Switches" H 10250 4300 60  0001 L CNN "Category"
-F 7 "Tactile Switches" H 10250 4400 60  0001 L CNN "Family"
-F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 10250 4500 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536" H 10250 4600 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 10250 4700 60  0001 L CNN "Description"
-F 11 "TE Connectivity ALCOSWITCH Switches" H 10250 4800 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 10250 4900 60  0001 L CNN "Status"
-	1    10050 3700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -427,31 +400,17 @@ U 1 1 5FA3D957
 P 9550 2150
 F 0 "R203" H 9620 2196 50  0000 L CNN
 F 1 "3k3" V 9550 2100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9480 2150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9480 2150 50  0001 C CNN
 F 3 "~" H 9550 2150 50  0001 C CNN
-F 4 "C26010" H 9550 2150 50  0001 C CNN "LCSC"
-F 5 "P3.3KBNCT-ND " H 9550 2150 50  0001 C CNN "DigiKey"
-F 6 " 667-ERA-6AED332V " H 9550 2150 50  0001 C CNN "Mouser"
+F 4 "C22978" H 9550 2150 50  0001 C CNN "LCSC"
+F 5 "P123763CT-ND" H 9550 2150 50  0001 C CNN "DigiKey"
+F 6 "667-ERA-3AED332V" H 9550 2150 50  0001 C CNN "Mouser"
 	1    9550 2150
 	1    0    0    -1  
 $EndComp
 Connection ~ 9550 2300
 Wire Wire Line
 	9550 2300 9750 2300
-$Comp
-L Device:R R204
-U 1 1 5FA3E0AE
-P 9550 2900
-F 0 "R204" H 9620 2946 50  0000 L CNN
-F 1 "3k3" V 9550 2850 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9480 2900 50  0001 C CNN
-F 3 "~" H 9550 2900 50  0001 C CNN
-F 4 "C26010" H 9550 2900 50  0001 C CNN "LCSC"
-F 5 "P3.3KBNCT-ND " H 9550 2900 50  0001 C CNN "DigiKey"
-F 6 " 667-ERA-6AED332V " H 9550 2900 50  0001 C CNN "Mouser"
-	1    9550 2900
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3.3V #PWR0222
 U 1 1 5FA4017F
@@ -475,20 +434,6 @@ F 3 "" H 9550 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R206
-U 1 1 5FA429C4
-P 10150 2900
-F 0 "R206" H 10220 2946 50  0000 L CNN
-F 1 "3k3" V 10150 2850 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10080 2900 50  0001 C CNN
-F 3 "~" H 10150 2900 50  0001 C CNN
-F 4 "C26010" H 10150 2900 50  0001 C CNN "LCSC"
-F 5 "P3.3KBNCT-ND " H 10150 2900 50  0001 C CNN "DigiKey"
-F 6 " 667-ERA-6AED332V " H 10150 2900 50  0001 C CNN "Mouser"
-	1    10150 2900
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR0227
 U 1 1 5FA429CA
 P 10150 2750
@@ -503,24 +448,8 @@ Wire Wire Line
 	4800 1650 4800 1550
 Text Label 4800 1550 1    50   ~ 0
 RESET
-Wire Wire Line
-	9550 3600 9450 3600
 Text Label 9450 3600 2    50   ~ 0
 RESET
-$Comp
-L Device:R R205
-U 1 1 5FA45C33
-P 9550 3450
-F 0 "R205" H 9620 3496 50  0000 L CNN
-F 1 "3k3" V 9550 3400 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9480 3450 50  0001 C CNN
-F 3 "~" H 9550 3450 50  0001 C CNN
-F 4 "C26010" H 9550 3450 50  0001 C CNN "LCSC"
-F 5 "P3.3KBNCT-ND " H 9550 3450 50  0001 C CNN "DigiKey"
-F 6 " 667-ERA-6AED332V " H 9550 3450 50  0001 C CNN "Mouser"
-	1    9550 3450
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3.3V #PWR0224
 U 1 1 5FA45C39
@@ -532,9 +461,6 @@ F 3 "" H 9550 3300 50  0001 C CNN
 	1    9550 3300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9550 3600 9750 3600
-Connection ~ 9550 3600
 Wire Wire Line
 	9750 3600 9750 3800
 Wire Wire Line
@@ -872,28 +798,14 @@ $Comp
 L Device:R R201
 U 1 1 5FA5D62B
 P 1700 6350
-F 0 "R201" V 1750 6150 50  0000 L CNN
+F 0 "R201" V 1750 6050 50  0000 L CNN
 F 1 "33R" V 1700 6300 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1630 6350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1630 6350 50  0001 C CNN
 F 3 "~" H 1700 6350 50  0001 C CNN
 F 4 "" H 1700 6350 50  0001 C CNN "LCSC"
-F 5 "P123897CT-ND" H 1700 6350 50  0001 C CNN "DigiKey"
-F 6 "667-ERA-6AHD330V" H 1700 6350 50  0001 C CNN "Mouser"
+F 5 "P123790CT-ND" H 1700 6350 50  0001 C CNN "DigiKey"
+F 6 "667-ERA-3AHD330V" H 1700 6350 50  0001 C CNN "Mouser"
 	1    1700 6350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R202
-U 1 1 5FA5EA86
-P 1700 6450
-F 0 "R202" V 1750 6250 50  0000 L CNN
-F 1 "33R" V 1700 6400 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1630 6450 50  0001 C CNN
-F 3 "~" H 1700 6450 50  0001 C CNN
-F 4 "" H 1700 6450 50  0001 C CNN "LCSC"
-F 5 "P123897CT-ND" H 1700 6450 50  0001 C CNN "DigiKey"
-F 6 "667-ERA-6AHD330V" H 1700 6450 50  0001 C CNN "Mouser"
-	1    1700 6450
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -939,5 +851,139 @@ F 3 "~" H 3400 6750 50  0001 C CNN
 	1    3400 6750
 	0    1    1    0   
 $EndComp
-Connection ~ 3400 6650
+$Comp
+L Device:R R202
+U 1 1 5FA8043F
+P 1700 6450
+F 0 "R202" V 1750 6150 50  0000 L CNN
+F 1 "33R" V 1700 6400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1630 6450 50  0001 C CNN
+F 3 "~" H 1700 6450 50  0001 C CNN
+F 4 "" H 1700 6450 50  0001 C CNN "LCSC"
+F 5 "P123790CT-ND" H 1700 6450 50  0001 C CNN "DigiKey"
+F 6 "667-ERA-3AHD330V" H 1700 6450 50  0001 C CNN "Mouser"
+	1    1700 6450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9450 3600 9550 3600
+$Comp
+L Device:R R205
+U 1 1 5FA82160
+P 9550 3450
+F 0 "R205" H 9620 3496 50  0000 L CNN
+F 1 "3k3" V 9550 3400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9480 3450 50  0001 C CNN
+F 3 "~" H 9550 3450 50  0001 C CNN
+F 4 "C22978" H 9550 3450 50  0001 C CNN "LCSC"
+F 5 "P123763CT-ND" H 9550 3450 50  0001 C CNN "DigiKey"
+F 6 "667-ERA-3AED332V" H 9550 3450 50  0001 C CNN "Mouser"
+	1    9550 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 9550 3600
+Wire Wire Line
+	9550 3600 9750 3600
+$Comp
+L Device:R R204
+U 1 1 5FA82809
+P 9550 2900
+F 0 "R204" H 9620 2946 50  0000 L CNN
+F 1 "3k3" V 9550 2850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9480 2900 50  0001 C CNN
+F 3 "~" H 9550 2900 50  0001 C CNN
+F 4 "C22978" H 9550 2900 50  0001 C CNN "LCSC"
+F 5 "P123763CT-ND" H 9550 2900 50  0001 C CNN "DigiKey"
+F 6 "667-ERA-3AED332V" H 9550 2900 50  0001 C CNN "Mouser"
+	1    9550 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R206
+U 1 1 5FA82B68
+P 10150 2900
+F 0 "R206" H 10220 2946 50  0000 L CNN
+F 1 "3k3" V 10150 2850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10080 2900 50  0001 C CNN
+F 3 "~" H 10150 2900 50  0001 C CNN
+F 4 "C22978" H 10150 2900 50  0001 C CNN "LCSC"
+F 5 "P123763CT-ND" H 10150 2900 50  0001 C CNN "DigiKey"
+F 6 "667-ERA-3AED332V" H 10150 2900 50  0001 C CNN "Mouser"
+	1    10150 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Tactile-Switches:1825910-6 S202
+U 1 1 5FA83DB7
+P 10050 3700
+F 0 "S202" H 10050 4047 60  0000 C CNN
+F 1 "1825910-6" H 10050 3941 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 10250 3900 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 10250 4000 60  0001 L CNN
+F 4 "450-1650-ND" H 10250 4100 60  0001 L CNN "DigiKey"
+F 5 "506-FSM4JH " H 10050 3700 50  0001 C CNN "Mouser"
+	1    10050 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_Flash:W25Q128JVS U?
+U 1 1 5FAA51F5
+P 2550 4900
+F 0 "U?" H 2650 5350 50  0000 C CNN
+F 1 "W25Q128JVS" H 2850 5250 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 2550 4900 50  0001 C CNN
+F 3 "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" H 2550 4900 50  0001 C CNN
+	1    2550 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FAA7D1B
+P 2250 4250
+F 0 "C?" H 2342 4296 50  0000 L CNN
+F 1 "100nF" H 2342 4205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2250 4250 50  0001 C CNN
+F 3 "~" H 2250 4250 50  0001 C CNN
+F 4 "C1525" H 2250 4250 50  0001 C CNN "LCSC"
+	1    2250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FAA9055
+P 2250 4350
+F 0 "#PWR?" H 2250 4100 50  0001 C CNN
+F 1 "GND" H 2255 4177 50  0000 C CNN
+F 2 "" H 2250 4350 50  0001 C CNN
+F 3 "" H 2250 4350 50  0001 C CNN
+	1    2250 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 4500 2550 4150
+Wire Wire Line
+	2550 4150 2250 4150
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FAB0937
+P 2250 4150
+F 0 "#PWR?" H 2250 4000 50  0001 C CNN
+F 1 "+3.3V" H 2265 4323 50  0000 C CNN
+F 2 "" H 2250 4150 50  0001 C CNN
+F 3 "" H 2250 4150 50  0001 C CNN
+	1    2250 4150
+	1    0    0    -1  
+$EndComp
+Connection ~ 2250 4150
+$Comp
+L power:GND #PWR?
+U 1 1 5FAB140D
+P 2550 5300
+F 0 "#PWR?" H 2550 5050 50  0001 C CNN
+F 1 "GND" H 2555 5127 50  0000 C CNN
+F 2 "" H 2550 5300 50  0001 C CNN
+F 3 "" H 2550 5300 50  0001 C CNN
+	1    2550 5300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

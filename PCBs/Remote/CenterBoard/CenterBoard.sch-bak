@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Graphic:Logo_Open_Hardware_Small LOGO1
+L Graphic:Logo_Open_Hardware_Small LOGO101
 U 1 1 5F436516
 P 4050 7550
-F 0 "LOGO1" H 4050 7825 50  0001 C CNN
+F 0 "LOGO101" H 4050 7825 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 4050 7325 50  0001 C CNN
 F 2 "Symbol:OSHW-Logo_5.7x6mm_SilkScreen" H 4050 7550 50  0001 C CNN
 F 3 "~" H 4050 7550 50  0001 C CNN
@@ -54,10 +54,10 @@ F 3 "" H 10100 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Eldalote-General:Sparkfun_COM-09032 U?
+L Eldalote-General:Sparkfun_COM-09032 U101
 U 1 1 5FA7B340
 P 8500 5250
-F 0 "U?" H 8830 5246 50  0000 L CNN
+F 0 "U101" H 8830 5246 50  0000 L CNN
 F 1 "Sparkfun_COM-09032" H 8830 5155 50  0000 L CNN
 F 2 "Eldalote-footprints:Sparkfun_COM-09032" H 8500 5250 50  0001 L BNN
 F 3 "" H 8500 5250 50  0001 L BNN
@@ -65,10 +65,10 @@ F 3 "" H 8500 5250 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Eldalote-General:Sparkfun_COM-09032 U?
+L Eldalote-General:Sparkfun_COM-09032 U102
 U 1 1 5FA7B424
 P 10100 4450
-F 0 "U?" H 10430 4446 50  0000 L CNN
+F 0 "U102" H 10430 4446 50  0000 L CNN
 F 1 "Sparkfun_COM-09032" H 10430 4355 50  0000 L CNN
 F 2 "Eldalote-footprints:Sparkfun_COM-09032" H 10100 4450 50  0001 L BNN
 F 3 "" H 10100 4450 50  0001 L BNN
