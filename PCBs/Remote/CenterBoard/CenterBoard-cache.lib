@@ -385,9 +385,9 @@ X H+ H1 -500 0 200 R 40 40 0 0 P
 X H H2 -500 100 200 R 40 40 0 0 P
 X H- H3 -500 -100 200 R 40 40 0 0 P
 X SHIELD S1 -500 -600 200 R 40 40 0 0 P
-X SHIELD S2 -500 -600 200 R 40 40 0 0 P
-X SHIELD S3 -500 -600 200 R 40 40 0 0 P
-X SHIELD S4 -500 -600 200 R 40 40 0 0 P
+X SHIELD S2 -500 -600 200 R 40 40 0 0 P N
+X SHIELD S3 -500 -600 200 R 40 40 0 0 P N
+X SHIELD S4 -500 -600 200 R 40 40 0 0 P N
 X V+ V1 -500 400 200 R 40 40 0 0 P
 X V V2 -500 500 200 R 40 40 0 0 P
 X V- V3 -500 300 200 R 40 40 0 0 P
@@ -510,6 +510,74 @@ X LX 5 950 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
+# dk_LED-Indication-Discrete_ASMB-TTB0-0A3A2
+#
+DEF dk_LED-Indication-Discrete_ASMB-TTB0-0A3A2 D 0 0 Y Y 1 F N
+F0 "D" 0 175 60 H V C CNN
+F1 "dk_LED-Indication-Discrete_ASMB-TTB0-0A3A2" 0 -550 60 H I C CNN
+F2 "digikey-footprints:6-PLCC_3.5x3.5mm" 200 200 60 H I L CNN
+F3 "https://docs.broadcom.com/docs/AV02-4415EN" 200 300 60 H I L CNN
+F4 "516-3281-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "ASMB-TTB0-0A3A2" 200 500 60 H I L CNN "MPN"
+F6 "Optoelectronics" 200 600 60 H I L CNN "Category"
+F7 "LED Indication - Discrete" 200 700 60 H I L CNN "Family"
+F8 "https://docs.broadcom.com/docs/AV02-4415EN" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/broadcom-limited/ASMB-TTB0-0A3A2/516-3281-1-ND/5695368" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "LED RGB DIFFUSED 6PLCC SMD" 200 1000 60 H I L CNN "Description"
+F11 "Broadcom Limited" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 0 1 0 0 -350 0 -450 N
+P 2 0 1 0 0 -150 0 -250 N
+P 2 0 1 0 0 50 0 -50 N
+P 4 0 1 0 -100 -350 -100 -450 0 -400 -100 -350 F
+P 4 0 1 0 -100 -150 -100 -250 0 -200 -100 -150 F
+P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 F
+P 5 1 1 0 25 -350 75 -300 50 -300 75 -300 75 -325 N
+P 5 1 1 0 25 -150 75 -100 50 -100 75 -100 75 -125 N
+P 5 1 1 0 25 50 75 100 50 100 75 100 75 75 N
+P 6 1 1 0 0 -300 0 -325 0 -300 -25 -300 0 -300 -50 -350 N
+P 6 1 1 0 0 -100 0 -125 0 -100 -25 -100 0 -100 -50 -150 N
+P 6 1 1 0 0 100 0 75 0 100 -25 100 0 100 -50 50 N
+X ~ 1 200 -400 200 L 50 50 1 1 O
+X ~ 2 200 -200 200 L 50 50 1 1 O
+X ~ 3 200 0 200 L 50 50 1 1 O
+X R 4 -300 0 200 R 50 50 1 1 I
+X G 5 -300 -200 200 R 50 50 1 1 I
+X B 6 -300 -400 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# dk_Rotary-Potentiometers-Rheostats_P120PK-Y25BR10K
+#
+DEF dk_Rotary-Potentiometers-Rheostats_P120PK-Y25BR10K POT 0 0 Y Y 1 F N
+F0 "POT" -75 250 60 H V R CNN
+F1 "dk_Rotary-Potentiometers-Rheostats_P120PK-Y25BR10K" 275 -200 60 H V R CNN
+F2 "digikey-footprints:Potentiometer_P120PK-Y25BR10K" 200 200 60 H I L CNN
+F3 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P120.pdf" 200 300 60 H I L CNN
+F4 "987-1710-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "P120PK-Y25BR10K" 200 500 60 H I L CNN "MPN"
+F6 "Potentiometers, Variable Resistors" 200 600 60 H I L CNN "Category"
+F7 "Rotary Potentiometers, Rheostats" 200 700 60 H I L CNN "Family"
+F8 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P120.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/tt-electronics-bi/P120PK-Y25BR10K/987-1710-ND/5957454" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "POT 10K OHM 1/20W PLASTIC LINEAR" 200 1000 60 H I L CNN "Description"
+F11 "TT Electronics/BI" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -275 200 375 -150 0 1 0 f
+P 2 0 1 0 -250 0 -350 0 N
+P 2 0 1 0 450 0 350 0 N
+P 4 0 1 0 -25 125 -50 150 50 150 0 100 F
+P 4 0 1 0 0 100 -25 125 25 125 0 100 N
+P 10 0 1 0 -249 1 -199 101 -99 -99 -49 1 1 101 101 -99 201 101 301 -99 351 1 451 1 N
+X ~ 4 300 -250 100 U 50 50 1 0 U
+X CCW 1 -450 0 100 R 50 50 1 1 P
+X S 2 0 350 200 D 50 50 1 1 P
+X CW 3 550 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # dk_Tactile-Switches_1825910-6
 #
 DEF dk_Tactile-Switches_1825910-6 S 0 40 Y Y 1 F N
@@ -548,6 +616,21 @@ ENDDEF
 DEF power_+3.3V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
 F1 "power_+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+3V3
+#
+DEF power_+3V3 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
