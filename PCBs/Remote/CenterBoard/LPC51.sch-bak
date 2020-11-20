@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -1034,8 +1034,6 @@ nRF_CE
 Wire Wire Line
 	3950 6450 4050 6450
 Wire Wire Line
-	3950 6650 4050 6650
-Wire Wire Line
 	5150 6350 5050 6350
 Wire Wire Line
 	5150 6450 5050 6450
@@ -1165,4 +1163,70 @@ F 4 "C15525" H 6150 7050 50  0001 C CNN "LCSC"
 	1    6150 7050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3800 6650 4050 6650
+Text Label 3950 6450 1    50   ~ 0
+Flash_SPI_CSn
+Text Label 3800 6650 1    50   ~ 0
+Flash_SPI_SCLK
+Wire Wire Line
+	7700 2800 7800 2800
+Wire Wire Line
+	7700 2700 7800 2700
+Wire Wire Line
+	7700 2600 7800 2600
+Wire Wire Line
+	7700 3400 7800 3400
+Wire Wire Line
+	3800 1750 3900 1750
+Wire Wire Line
+	3800 1650 3900 1650
+Text Label 7800 2600 0    50   ~ 0
+nRF_SPI_SCLK
+Text Label 7800 2700 0    50   ~ 0
+nRF_SPI_MISO
+Text Label 7800 2800 0    50   ~ 0
+nRF_SPI_MOSI
+Text Label 7800 3400 0    50   ~ 0
+nRF_SPI_CSn
+Text Label 3900 1650 0    50   ~ 0
+nRF_IRQ
+Text Label 3900 1750 0    50   ~ 0
+nRF_CE
+Wire Wire Line
+	3750 1450 3650 1450
+Text Label 3750 1450 0    50   ~ 0
+Screen_Backlight_pot
+Wire Wire Line
+	7700 2500 7800 2500
+Wire Wire Line
+	7700 2300 7800 2300
+Wire Wire Line
+	7700 2400 7800 2400
+Wire Wire Line
+	7100 1700 7100 1600
+Wire Wire Line
+	3650 1250 3750 1250
+Wire Wire Line
+	3650 1150 3750 1150
+Wire Wire Line
+	7000 1700 7000 1600
+Wire Wire Line
+	3650 1350 3750 1350
+Text Label 7800 2500 0    50   ~ 0
+Screen_SPI_SCLK
+Text Label 7800 2300 0    50   ~ 0
+Screen_SPI_MISO
+Text Label 7800 2400 0    50   ~ 0
+Screen_SPI_MOSI
+Text Label 7100 1600 1    50   ~ 0
+Screen_SPI_CSn_TFT
+Text Label 3750 1250 0    50   ~ 0
+Screen_TFT_RESET
+Text Label 3750 1150 0    50   ~ 0
+Screen_TFT_DC
+Text Label 7000 1600 1    50   ~ 0
+Screen_SPI_CSn_SDCard
+Text Label 3750 1350 0    50   ~ 0
+Screen_Backlight_PWM
 $EndSCHEMATC

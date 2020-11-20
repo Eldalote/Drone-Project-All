@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -16,59 +16,51 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_01x11 J501
 U 1 1 5FAB2A08
-P 9800 1750
-F 0 "J501" H 9880 1792 50  0000 L CNN
-F 1 "Conn_01x11" H 9880 1701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical_SMD_Pin1Left" H 9800 1750 50  0001 C CNN
-F 3 "~" H 9800 1750 50  0001 C CNN
-	1    9800 1750
+P 9800 2000
+F 0 "J501" H 9880 2042 50  0000 L CNN
+F 1 "Conn_01x11" H 9880 1951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical_SMD_Pin1Left" H 9800 2000 50  0001 C CNN
+F 3 "~" H 9800 2000 50  0001 C CNN
+	1    9800 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9600 1250 9500 1250
+	9600 1600 9500 1600
 Wire Wire Line
-	9600 1350 9500 1350
+	9600 1800 9500 1800
 Wire Wire Line
-	9600 1450 9500 1450
+	9600 1900 9500 1900
 Wire Wire Line
-	9600 1550 9500 1550
+	9600 2000 9500 2000
 Wire Wire Line
-	9600 1650 9500 1650
+	9600 2100 9500 2100
 Wire Wire Line
-	9600 1750 9500 1750
+	9600 2200 9500 2200
 Wire Wire Line
-	9600 1850 9500 1850
+	9600 2300 9500 2300
 Wire Wire Line
-	9600 1950 9500 1950
+	9600 2400 9500 2400
 Wire Wire Line
-	9600 2050 9500 2050
-Wire Wire Line
-	9600 2150 9500 2150
-Wire Wire Line
-	9600 2250 9500 2250
-Text Label 9500 1250 2    50   ~ 0
-Vin
-Text Label 9500 1350 2    50   ~ 0
+	9600 2500 9500 2500
+Text Label 9500 1600 2    50   ~ 0
 3vOut
-Text Label 9500 1450 2    50   ~ 0
-GND
-Text Label 9500 1550 2    50   ~ 0
+Text Label 9500 1800 2    50   ~ 0
 SPI_SCLK
-Text Label 9500 1650 2    50   ~ 0
+Text Label 9500 1900 2    50   ~ 0
 SPI_MISO
-Text Label 9500 1750 2    50   ~ 0
+Text Label 9500 2000 2    50   ~ 0
 SPI_MOSI
-Text Label 9500 1850 2    50   ~ 0
+Text Label 9500 2100 2    50   ~ 0
 SPI_CSn_TFT
-Text Label 9500 1950 2    50   ~ 0
+Text Label 9500 2200 2    50   ~ 0
 TFT_RESET
-Text Label 9500 2050 2    50   ~ 0
+Text Label 9500 2300 2    50   ~ 0
 TFT_DC
-Text Label 9500 2150 2    50   ~ 0
+Text Label 9500 2400 2    50   ~ 0
 SPI_CSn_SDCard
-Text Label 9500 2250 2    50   ~ 0
+Text Label 9500 2500 2    50   ~ 0
 Backlight_PWM
-Text Notes 8900 2500 0    50   ~ 0
+Text Notes 8900 2750 0    50   ~ 0
 AdaFruit 1.54" 240x240 pixel TFT display\nAdaFruit 3787
 $Comp
 L Device:LED D502
@@ -647,5 +639,35 @@ F 3 "~" H 2450 5000 50  0001 C CNN
 F 4 "C25796" V 2450 5000 50  0001 C CNN "LCSC"
 	1    2450 5000
 	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8750 1700 8750 1750
+Wire Wire Line
+	8750 1700 9600 1700
+Wire Wire Line
+	8750 1500 8750 1450
+Wire Wire Line
+	8750 1500 9600 1500
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FD1B335
+P 8750 1450
+F 0 "#PWR?" H 8750 1300 50  0001 C CNN
+F 1 "+3.3V" V 8765 1578 50  0000 L CNN
+F 2 "" H 8750 1450 50  0001 C CNN
+F 3 "" H 8750 1450 50  0001 C CNN
+	1    8750 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD1B7AD
+P 8750 1750
+F 0 "#PWR?" H 8750 1500 50  0001 C CNN
+F 1 "GND" V 8755 1622 50  0000 R CNN
+F 2 "" H 8750 1750 50  0001 C CNN
+F 3 "" H 8750 1750 50  0001 C CNN
+	1    8750 1750
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
