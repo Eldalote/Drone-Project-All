@@ -48,19 +48,6 @@ F 3 "" H 4350 3000 50  0001 C CNN
 	1    4350 3000
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0204
-U 1 1 5F99D8EB
-P 4350 3100
-F 0 "#PWR0204" H 4350 2850 50  0001 C CNN
-F 1 "GND" H 4355 2927 50  0000 C CNN
-F 2 "" H 4350 3100 50  0001 C CNN
-F 3 "" H 4350 3100 50  0001 C CNN
-	1    4350 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5000 3100 4350 3100
 Wire Wire Line
 	4350 3000 5000 3000
 $Comp
@@ -140,22 +127,20 @@ $EndComp
 $Comp
 L power:GND #PWR0209
 U 1 1 5F9A4E3A
-P 6600 800
-F 0 "#PWR0209" H 6600 550 50  0001 C CNN
-F 1 "GND" H 6605 627 50  0000 C CNN
-F 2 "" H 6600 800 50  0001 C CNN
-F 3 "" H 6600 800 50  0001 C CNN
-	1    6600 800 
+P 6600 650
+F 0 "#PWR0209" H 6600 400 50  0001 C CNN
+F 1 "GND" H 6605 477 50  0000 C CNN
+F 2 "" H 6600 650 50  0001 C CNN
+F 3 "" H 6600 650 50  0001 C CNN
+	1    6600 650 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6400 1700 6400 750 
 Wire Wire Line
-	6500 1700 6500 750 
+	6500 1700 6500 650 
 Wire Wire Line
-	6500 750  6600 750 
-Wire Wire Line
-	6600 750  6600 800 
+	6500 650  6600 650 
 $Comp
 L power:GND #PWR0217
 U 1 1 5F9A7242
@@ -288,150 +273,150 @@ Text Label 6500 4500 3    50   ~ 0
 ISP-VBUS
 Text Label 7800 3300 0    50   ~ 0
 ISP1
-Text Label 9400 2300 2    50   ~ 0
+Text Label 9800 3650 2    50   ~ 0
 ISP0
 Wire Wire Line
-	9550 3050 9450 3050
-Text Label 9450 3050 2    50   ~ 0
+	9950 4400 9850 4400
+Text Label 9850 4400 2    50   ~ 0
 ISP1
 Wire Wire Line
-	10150 3050 10050 3050
-Text Label 10050 3050 2    50   ~ 0
+	10550 4400 10450 4400
+Text Label 10450 4400 2    50   ~ 0
 ISP-VBUS
 $Comp
 L dk_Tactile-Switches:1825910-6 S201
 U 1 1 5FA36464
-P 10050 2400
-F 0 "S201" H 10050 2747 60  0000 C CNN
-F 1 "1825910-6" H 10050 2641 60  0000 C CNN
-F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 10250 2600 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 10250 2700 60  0001 L CNN
-F 4 "450-1650-ND" H 10250 2800 60  0001 L CNN "DigiKey"
-F 5 "506-FSM4JH " H 10050 2400 50  0001 C CNN "Mouser"
-	1    10050 2400
+P 10450 3750
+F 0 "S201" H 10450 4097 60  0000 C CNN
+F 1 "1825910-6" H 10450 3991 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 10650 3950 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 10650 4050 60  0001 L CNN
+F 4 "450-1650-ND" H 10650 4150 60  0001 L CNN "DigiKey"
+F 5 "506-FSM4JH " H 10450 3750 50  0001 C CNN "Mouser"
+	1    10450 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9750 2300 9750 2500
+	10150 3650 10150 3850
 Wire Wire Line
-	9750 2500 9850 2500
+	10150 3850 10250 3850
 Wire Wire Line
-	9750 2300 9850 2300
+	10150 3650 10250 3650
 Wire Wire Line
-	10250 2300 10400 2300
+	10650 3650 10800 3650
 Wire Wire Line
-	10400 2300 10400 2500
+	10800 3650 10800 3850
 Wire Wire Line
-	10250 2500 10400 2500
-Connection ~ 10400 2500
+	10650 3850 10800 3850
+Connection ~ 10800 3850
 Wire Wire Line
-	10400 2500 10400 2600
+	10800 3850 10800 3950
 $Comp
 L power:GND #PWR0228
 U 1 1 5FA3C16C
-P 10400 2600
-F 0 "#PWR0228" H 10400 2350 50  0001 C CNN
-F 1 "GND" H 10405 2427 50  0000 C CNN
-F 2 "" H 10400 2600 50  0001 C CNN
-F 3 "" H 10400 2600 50  0001 C CNN
-	1    10400 2600
+P 10800 3950
+F 0 "#PWR0228" H 10800 3700 50  0001 C CNN
+F 1 "GND" H 10805 3777 50  0000 C CNN
+F 2 "" H 10800 3950 50  0001 C CNN
+F 3 "" H 10800 3950 50  0001 C CNN
+	1    10800 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9400 2300 9550 2300
-Connection ~ 9750 2300
+	9800 3650 9950 3650
+Connection ~ 10150 3650
 $Comp
 L Device:R R203
 U 1 1 5FA3D957
-P 9550 2150
-F 0 "R203" H 9620 2196 50  0000 L CNN
-F 1 "3k3" V 9550 2100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9480 2150 50  0001 C CNN
-F 3 "~" H 9550 2150 50  0001 C CNN
-F 4 "C22978" H 9550 2150 50  0001 C CNN "LCSC"
-F 5 "P123763CT-ND" H 9550 2150 50  0001 C CNN "DigiKey"
-F 6 "667-ERA-3AED332V" H 9550 2150 50  0001 C CNN "Mouser"
-	1    9550 2150
+P 9950 3500
+F 0 "R203" H 10020 3546 50  0000 L CNN
+F 1 "3k3" V 9950 3450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9880 3500 50  0001 C CNN
+F 3 "~" H 9950 3500 50  0001 C CNN
+F 4 "C22978" H 9950 3500 50  0001 C CNN "LCSC"
+F 5 "P123763CT-ND" H 9950 3500 50  0001 C CNN "DigiKey"
+F 6 "667-ERA-3AED332V" H 9950 3500 50  0001 C CNN "Mouser"
+	1    9950 3500
 	1    0    0    -1  
 $EndComp
-Connection ~ 9550 2300
+Connection ~ 9950 3650
 Wire Wire Line
-	9550 2300 9750 2300
+	9950 3650 10150 3650
 $Comp
 L power:+3.3V #PWR0222
 U 1 1 5FA4017F
-P 9550 2000
-F 0 "#PWR0222" H 9550 1850 50  0001 C CNN
-F 1 "+3.3V" H 9565 2173 50  0000 C CNN
-F 2 "" H 9550 2000 50  0001 C CNN
-F 3 "" H 9550 2000 50  0001 C CNN
-	1    9550 2000
+P 9950 3350
+F 0 "#PWR0222" H 9950 3200 50  0001 C CNN
+F 1 "+3.3V" H 9965 3523 50  0000 C CNN
+F 2 "" H 9950 3350 50  0001 C CNN
+F 3 "" H 9950 3350 50  0001 C CNN
+	1    9950 3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0223
 U 1 1 5FA409DF
-P 9550 2750
-F 0 "#PWR0223" H 9550 2600 50  0001 C CNN
-F 1 "+3.3V" H 9565 2923 50  0000 C CNN
-F 2 "" H 9550 2750 50  0001 C CNN
-F 3 "" H 9550 2750 50  0001 C CNN
-	1    9550 2750
+P 9950 4100
+F 0 "#PWR0223" H 9950 3950 50  0001 C CNN
+F 1 "+3.3V" H 9965 4273 50  0000 C CNN
+F 2 "" H 9950 4100 50  0001 C CNN
+F 3 "" H 9950 4100 50  0001 C CNN
+	1    9950 4100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0227
 U 1 1 5FA429CA
-P 10150 2750
-F 0 "#PWR0227" H 10150 2600 50  0001 C CNN
-F 1 "+3.3V" H 10165 2923 50  0000 C CNN
-F 2 "" H 10150 2750 50  0001 C CNN
-F 3 "" H 10150 2750 50  0001 C CNN
-	1    10150 2750
+P 10550 4100
+F 0 "#PWR0227" H 10550 3950 50  0001 C CNN
+F 1 "+3.3V" H 10565 4273 50  0000 C CNN
+F 2 "" H 10550 4100 50  0001 C CNN
+F 3 "" H 10550 4100 50  0001 C CNN
+	1    10550 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5600 1700 5600 1600
 Text Label 5600 1600 1    50   ~ 0
 RESET
-Text Label 9450 3600 2    50   ~ 0
+Text Label 9850 4950 2    50   ~ 0
 RESET
 $Comp
 L power:+3.3V #PWR0224
 U 1 1 5FA45C39
-P 9550 3300
-F 0 "#PWR0224" H 9550 3150 50  0001 C CNN
-F 1 "+3.3V" H 9565 3473 50  0000 C CNN
-F 2 "" H 9550 3300 50  0001 C CNN
-F 3 "" H 9550 3300 50  0001 C CNN
-	1    9550 3300
+P 9950 4650
+F 0 "#PWR0224" H 9950 4500 50  0001 C CNN
+F 1 "+3.3V" H 9965 4823 50  0000 C CNN
+F 2 "" H 9950 4650 50  0001 C CNN
+F 3 "" H 9950 4650 50  0001 C CNN
+	1    9950 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9750 3600 9750 3800
+	10150 4950 10150 5150
 Wire Wire Line
-	9750 3800 9850 3800
-Connection ~ 9750 3600
+	10150 5150 10250 5150
+Connection ~ 10150 4950
 Wire Wire Line
-	9750 3600 9850 3600
+	10150 4950 10250 4950
 Wire Wire Line
-	10250 3600 10400 3600
+	10650 4950 10800 4950
 Wire Wire Line
-	10400 3600 10400 3800
+	10800 4950 10800 5150
 Wire Wire Line
-	10250 3800 10400 3800
-Connection ~ 10400 3800
+	10650 5150 10800 5150
+Connection ~ 10800 5150
 Wire Wire Line
-	10400 3800 10400 3900
+	10800 5150 10800 5250
 $Comp
 L power:GND #PWR0229
 U 1 1 5FA4C478
-P 10400 3900
-F 0 "#PWR0229" H 10400 3650 50  0001 C CNN
-F 1 "GND" H 10405 3727 50  0000 C CNN
-F 2 "" H 10400 3900 50  0001 C CNN
-F 3 "" H 10400 3900 50  0001 C CNN
-	1    10400 3900
+P 10800 5250
+F 0 "#PWR0229" H 10800 5000 50  0001 C CNN
+F 1 "GND" H 10805 5077 50  0000 C CNN
+F 2 "" H 10800 5250 50  0001 C CNN
+F 3 "" H 10800 5250 50  0001 C CNN
+	1    10800 5250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -564,16 +549,16 @@ Text Notes 9650 5800 0    50   ~ 0
 VDD
 Text Notes 10600 5800 0    50   ~ 0
 VDD
-Text Notes 9350 1750 0    79   ~ 0
+Text Notes 9750 3100 0    79   ~ 0
 Programming selection
 Wire Notes Line
-	9150 1750 10700 1750
+	9550 3100 11100 3100
 Wire Notes Line
-	10700 1750 10700 4150
+	11100 3100 11100 5500
 Wire Notes Line
-	10700 4150 9150 4150
+	11100 5500 9550 5500
 Wire Notes Line
-	9150 4150 9150 1750
+	9550 5500 9550 3100
 Wire Notes Line
 	11150 5550 11150 6400
 Wire Notes Line
@@ -589,73 +574,73 @@ Wire Notes Line
 $Comp
 L Eldalote-General:DX07S016JA1R1500 J201
 U 1 1 5FA4DFFC
-P 2000 6450
-F 0 "J201" H 2000 7017 50  0000 C CNN
-F 1 "DX07S016JA1R1500" H 2000 6926 50  0000 C CNN
-F 2 "Eldalote-footprints:JAE_DX07S016JA1R1500" H 2450 6600 50  0001 L BNN
-F 3 "" H 2000 6450 50  0001 L BNN
-F 4 "670-DX07S016JA1R1500CT-ND " H 3350 6350 79  0001 C CNN "DigiKey"
-F 5 "656-DX07S016JA1R1500 " H 3200 6450 79  0001 C CNN "Mouser"
-	1    2000 6450
+P 9700 1300
+F 0 "J201" H 9700 1867 50  0000 C CNN
+F 1 "DX07S016JA1R1500" H 9700 1776 50  0000 C CNN
+F 2 "Eldalote-footprints:JAE_DX07S016JA1R1500" H 10150 1450 50  0001 L BNN
+F 3 "" H 9700 1300 50  0001 L BNN
+F 4 "670-DX07S016JA1R1500CT-ND " H 11050 1200 79  0001 C CNN "DigiKey"
+F 5 "656-DX07S016JA1R1500 " H 10900 1300 79  0001 C CNN "Mouser"
+	1    9700 1300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1400 6250
-NoConn ~ 1400 6350
-NoConn ~ 1400 6650
-NoConn ~ 1400 6750
+NoConn ~ 9100 1100
+NoConn ~ 9100 1200
+NoConn ~ 9100 1500
+NoConn ~ 9100 1600
 $Comp
 L power:+5V #PWR0201
 U 1 1 5FA5776D
-P 2800 6050
-F 0 "#PWR0201" H 2800 5900 50  0001 C CNN
-F 1 "+5V" H 2815 6223 50  0000 C CNN
-F 2 "" H 2800 6050 50  0001 C CNN
-F 3 "" H 2800 6050 50  0001 C CNN
-	1    2800 6050
+P 10500 900
+F 0 "#PWR0201" H 10500 750 50  0001 C CNN
+F 1 "+5V" H 10515 1073 50  0000 C CNN
+F 2 "" H 10500 900 50  0001 C CNN
+F 3 "" H 10500 900 50  0001 C CNN
+	1    10500 900 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2800 6050 2800 6150
+	10500 900  10500 1000
 Wire Wire Line
-	2800 6150 2600 6150
+	10500 1000 10300 1000
 $Comp
 L power:GND #PWR0202
 U 1 1 5FA59803
-P 2800 6900
-F 0 "#PWR0202" H 2800 6650 50  0001 C CNN
-F 1 "GND" H 2805 6727 50  0000 C CNN
-F 2 "" H 2800 6900 50  0001 C CNN
-F 3 "" H 2800 6900 50  0001 C CNN
-	1    2800 6900
+P 10500 1750
+F 0 "#PWR0202" H 10500 1500 50  0001 C CNN
+F 1 "GND" H 10505 1577 50  0000 C CNN
+F 2 "" H 10500 1750 50  0001 C CNN
+F 3 "" H 10500 1750 50  0001 C CNN
+	1    10500 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2800 6900 2800 6850
+	10500 1750 10500 1700
 Wire Wire Line
-	2800 6850 2600 6850
+	10500 1700 10300 1700
 Wire Wire Line
-	2600 6750 2800 6750
+	10300 1600 10500 1600
 Wire Wire Line
-	2800 6750 2800 6850
-Connection ~ 2800 6850
+	10500 1600 10500 1700
+Connection ~ 10500 1700
 $Comp
 L Device:R R201
 U 1 1 5FA5D62B
-P 1100 6450
-F 0 "R201" V 1150 6150 50  0000 L CNN
-F 1 "33R" V 1100 6400 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1030 6450 50  0001 C CNN
-F 3 "~" H 1100 6450 50  0001 C CNN
-F 4 "" H 1100 6450 50  0001 C CNN "LCSC"
-F 5 "P123790CT-ND" H 1100 6450 50  0001 C CNN "DigiKey"
-F 6 "667-ERA-3AHD330V" H 1100 6450 50  0001 C CNN "Mouser"
-	1    1100 6450
+P 8800 1300
+F 0 "R201" V 8850 1000 50  0000 L CNN
+F 1 "33R" V 8800 1250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8730 1300 50  0001 C CNN
+F 3 "~" H 8800 1300 50  0001 C CNN
+F 4 "" H 8800 1300 50  0001 C CNN "LCSC"
+F 5 "P123790CT-ND" H 8800 1300 50  0001 C CNN "DigiKey"
+F 6 "667-ERA-3AHD330V" H 8800 1300 50  0001 C CNN "Mouser"
+	1    8800 1300
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1400 6550 1250 6550
+	9100 1400 8950 1400
 Wire Wire Line
-	1400 6450 1250 6450
+	9100 1300 8950 1300
 Wire Wire Line
 	5000 2700 4900 2700
 Wire Wire Line
@@ -665,108 +650,108 @@ USB_DP
 Text Label 4900 2800 2    50   ~ 0
 USB_DM
 Wire Wire Line
-	950  6550 850  6550
+	8650 1400 8550 1400
 Wire Wire Line
-	950  6450 850  6450
-Text Label 850  6550 2    50   ~ 0
+	8650 1300 8550 1300
+Text Label 8550 1400 2    50   ~ 0
 USB_DP
-Text Label 850  6450 2    50   ~ 0
+Text Label 8550 1300 2    50   ~ 0
 USB_DM
 $Comp
 L power:PWR_FLAG #FLG0201
 U 1 1 5FA6F59E
-P 2800 6150
-F 0 "#FLG0201" H 2800 6225 50  0001 C CNN
-F 1 "PWR_FLAG" V 2800 6278 50  0000 L CNN
-F 2 "" H 2800 6150 50  0001 C CNN
-F 3 "~" H 2800 6150 50  0001 C CNN
-	1    2800 6150
+P 10500 1000
+F 0 "#FLG0201" H 10500 1075 50  0001 C CNN
+F 1 "PWR_FLAG" V 10500 1128 50  0000 L CNN
+F 2 "" H 10500 1000 50  0001 C CNN
+F 3 "~" H 10500 1000 50  0001 C CNN
+	1    10500 1000
 	0    1    1    0   
 $EndComp
-Connection ~ 2800 6150
+Connection ~ 10500 1000
 $Comp
 L power:PWR_FLAG #FLG0202
 U 1 1 5FA700C7
-P 2800 6850
-F 0 "#FLG0202" H 2800 6925 50  0001 C CNN
-F 1 "PWR_FLAG" V 2800 6978 50  0000 L CNN
-F 2 "" H 2800 6850 50  0001 C CNN
-F 3 "~" H 2800 6850 50  0001 C CNN
-	1    2800 6850
+P 10500 1700
+F 0 "#FLG0202" H 10500 1775 50  0001 C CNN
+F 1 "PWR_FLAG" V 10500 1828 50  0000 L CNN
+F 2 "" H 10500 1700 50  0001 C CNN
+F 3 "~" H 10500 1700 50  0001 C CNN
+	1    10500 1700
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R202
 U 1 1 5FA8043F
-P 1100 6550
-F 0 "R202" V 1150 6250 50  0000 L CNN
-F 1 "33R" V 1100 6500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1030 6550 50  0001 C CNN
-F 3 "~" H 1100 6550 50  0001 C CNN
-F 4 "" H 1100 6550 50  0001 C CNN "LCSC"
-F 5 "P123790CT-ND" H 1100 6550 50  0001 C CNN "DigiKey"
-F 6 "667-ERA-3AHD330V" H 1100 6550 50  0001 C CNN "Mouser"
-	1    1100 6550
+P 8800 1400
+F 0 "R202" V 8850 1100 50  0000 L CNN
+F 1 "33R" V 8800 1350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8730 1400 50  0001 C CNN
+F 3 "~" H 8800 1400 50  0001 C CNN
+F 4 "" H 8800 1400 50  0001 C CNN "LCSC"
+F 5 "P123790CT-ND" H 8800 1400 50  0001 C CNN "DigiKey"
+F 6 "667-ERA-3AHD330V" H 8800 1400 50  0001 C CNN "Mouser"
+	1    8800 1400
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9450 3600 9550 3600
+	9850 4950 9950 4950
 $Comp
 L Device:R R205
 U 1 1 5FA82160
-P 9550 3450
-F 0 "R205" H 9620 3496 50  0000 L CNN
-F 1 "3k3" V 9550 3400 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9480 3450 50  0001 C CNN
-F 3 "~" H 9550 3450 50  0001 C CNN
-F 4 "C22978" H 9550 3450 50  0001 C CNN "LCSC"
-F 5 "P123763CT-ND" H 9550 3450 50  0001 C CNN "DigiKey"
-F 6 "667-ERA-3AED332V" H 9550 3450 50  0001 C CNN "Mouser"
-	1    9550 3450
+P 9950 4800
+F 0 "R205" H 10020 4846 50  0000 L CNN
+F 1 "3k3" V 9950 4750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9880 4800 50  0001 C CNN
+F 3 "~" H 9950 4800 50  0001 C CNN
+F 4 "C22978" H 9950 4800 50  0001 C CNN "LCSC"
+F 5 "P123763CT-ND" H 9950 4800 50  0001 C CNN "DigiKey"
+F 6 "667-ERA-3AED332V" H 9950 4800 50  0001 C CNN "Mouser"
+	1    9950 4800
 	1    0    0    -1  
 $EndComp
-Connection ~ 9550 3600
+Connection ~ 9950 4950
 Wire Wire Line
-	9550 3600 9750 3600
+	9950 4950 10150 4950
 $Comp
 L Device:R R204
 U 1 1 5FA82809
-P 9550 2900
-F 0 "R204" H 9620 2946 50  0000 L CNN
-F 1 "3k3" V 9550 2850 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9480 2900 50  0001 C CNN
-F 3 "~" H 9550 2900 50  0001 C CNN
-F 4 "C22978" H 9550 2900 50  0001 C CNN "LCSC"
-F 5 "P123763CT-ND" H 9550 2900 50  0001 C CNN "DigiKey"
-F 6 "667-ERA-3AED332V" H 9550 2900 50  0001 C CNN "Mouser"
-	1    9550 2900
+P 9950 4250
+F 0 "R204" H 10020 4296 50  0000 L CNN
+F 1 "3k3" V 9950 4200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9880 4250 50  0001 C CNN
+F 3 "~" H 9950 4250 50  0001 C CNN
+F 4 "C22978" H 9950 4250 50  0001 C CNN "LCSC"
+F 5 "P123763CT-ND" H 9950 4250 50  0001 C CNN "DigiKey"
+F 6 "667-ERA-3AED332V" H 9950 4250 50  0001 C CNN "Mouser"
+	1    9950 4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R206
 U 1 1 5FA82B68
-P 10150 2900
-F 0 "R206" H 10220 2946 50  0000 L CNN
-F 1 "3k3" V 10150 2850 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10080 2900 50  0001 C CNN
-F 3 "~" H 10150 2900 50  0001 C CNN
-F 4 "C22978" H 10150 2900 50  0001 C CNN "LCSC"
-F 5 "P123763CT-ND" H 10150 2900 50  0001 C CNN "DigiKey"
-F 6 "667-ERA-3AED332V" H 10150 2900 50  0001 C CNN "Mouser"
-	1    10150 2900
+P 10550 4250
+F 0 "R206" H 10620 4296 50  0000 L CNN
+F 1 "3k3" V 10550 4200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10480 4250 50  0001 C CNN
+F 3 "~" H 10550 4250 50  0001 C CNN
+F 4 "C22978" H 10550 4250 50  0001 C CNN "LCSC"
+F 5 "P123763CT-ND" H 10550 4250 50  0001 C CNN "DigiKey"
+F 6 "667-ERA-3AED332V" H 10550 4250 50  0001 C CNN "Mouser"
+	1    10550 4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Tactile-Switches:1825910-6 S202
 U 1 1 5FA83DB7
-P 10050 3700
-F 0 "S202" H 10050 4047 60  0000 C CNN
-F 1 "1825910-6" H 10050 3941 60  0000 C CNN
-F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 10250 3900 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 10250 4000 60  0001 L CNN
-F 4 "450-1650-ND" H 10250 4100 60  0001 L CNN "DigiKey"
-F 5 "506-FSM4JH " H 10050 3700 50  0001 C CNN "Mouser"
-	1    10050 3700
+P 10450 5050
+F 0 "S202" H 10450 5397 60  0000 C CNN
+F 1 "1825910-6" H 10450 5291 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 10650 5250 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 10650 5350 60  0001 L CNN
+F 4 "450-1650-ND" H 10650 5450 60  0001 L CNN "DigiKey"
+F 5 "506-FSM4JH " H 10450 5050 50  0001 C CNN "Mouser"
+	1    10450 5050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -832,9 +817,9 @@ F 3 "" H 4550 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	3400 7150 500  7150
+	11100 2000 8200 2000
 Wire Notes Line
-	500  5550 3400 5550
+	8200 600  11100 600 
 Wire Notes Line
 	5800 5550 5800 7200
 Wire Notes Line
@@ -843,194 +828,154 @@ Wire Notes Line
 	3550 7200 3550 5550
 Wire Notes Line
 	3550 5550 5800 5550
-Wire Notes Line
-	3400 5550 3400 7150
-Wire Notes Line
-	500  5550 500  7150
-Text Notes 1350 5550 0    79   ~ 0
+Text Notes 9050 600  0    79   ~ 0
 USB Connector
 Text Notes 4300 5550 0    79   ~ 0
 User Flash
-Text GLabel 1500 1000 0    50   Input ~ 0
+Text GLabel -1550 800  0    50   Input ~ 0
 nRF_SCLK
-Text GLabel 1500 1500 0    50   Input ~ 0
+Text GLabel -1550 1300 0    50   Input ~ 0
 nRF_CE
-Text GLabel 1500 1300 0    50   Input ~ 0
+Text GLabel -1550 1100 0    50   Input ~ 0
 nRF_CSn
-Text GLabel 1500 1200 0    50   Input ~ 0
+Text GLabel -1550 1000 0    50   Input ~ 0
 nRF_MOSI
-Text GLabel 1500 1400 0    50   Input ~ 0
+Text GLabel -1550 1200 0    50   Input ~ 0
 nRF_IRQ
-Text GLabel 1500 1100 0    50   Input ~ 0
+Text GLabel -1550 900  0    50   Input ~ 0
 nRF_MISO
 Wire Wire Line
-	1500 1200 1600 1200
+	-1550 1000 -1450 1000
 Wire Wire Line
-	1500 1100 1600 1100
+	-1550 900  -1450 900 
 Wire Wire Line
-	1500 1000 1600 1000
+	-1550 800  -1450 800 
 Wire Wire Line
-	1500 1300 1600 1300
+	-1550 1100 -1450 1100
 Wire Wire Line
-	1500 1500 1600 1500
+	-1550 1200 -1450 1200
 Wire Wire Line
-	1500 1400 1600 1400
-Wire Wire Line
-	1500 1650 1600 1650
-Text Label 1600 1650 0    50   ~ 0
-LED_ERROR
-Wire Wire Line
-	1500 2000 1600 2000
-Wire Wire Line
-	1600 1900 1500 1900
-Wire Wire Line
-	1600 1800 1500 1800
-Text Label 1600 2000 0    50   ~ 0
-LED_USER_RGB_B
-Text Label 1600 1900 0    50   ~ 0
-LED_USER_RGB_G
-Text Label 1600 1800 0    50   ~ 0
-LED_USER_RGB_R
-Wire Wire Line
-	1600 2150 1500 2150
-Wire Wire Line
-	1600 2250 1500 2250
-Wire Wire Line
-	1600 2350 1500 2350
-Wire Wire Line
-	1600 2450 1500 2450
-Text Label 1600 2150 0    50   ~ 0
-LED_USER_0
-Text Label 1600 2250 0    50   ~ 0
-LED_USER_1
-Text Label 1600 2350 0    50   ~ 0
-LED_USER_2
-Text Label 1600 2450 0    50   ~ 0
-LED_USER_3
-Wire Wire Line
-	1600 3400 1500 3400
-Text Label 1600 3400 0    50   ~ 0
+	-1450 3200 -1550 3200
+Text Label -1450 3200 0    50   ~ 0
 Screen_Backlight_pot
 Wire Wire Line
-	1500 2600 1600 2600
+	-1550 2400 -1450 2400
 Wire Wire Line
-	1500 2700 1600 2700
+	-1550 2500 -1450 2500
 Wire Wire Line
-	1500 2800 1600 2800
+	-1550 2600 -1450 2600
 Wire Wire Line
-	1500 2900 1600 2900
+	-1550 2700 -1450 2700
 Wire Wire Line
-	1500 3200 1600 3200
+	-1550 3000 -1450 3000
 Wire Wire Line
-	1500 3100 1600 3100
+	-1550 2900 -1450 2900
 Wire Wire Line
-	1500 3000 1600 3000
+	-1550 2800 -1450 2800
 Wire Wire Line
-	1500 3300 1600 3300
-Text Label 1600 2600 0    50   ~ 0
+	-1550 3100 -1450 3100
+Text Label -1450 2400 0    50   ~ 0
 Screen_SPI_SCLK
-Text Label 1600 2700 0    50   ~ 0
+Text Label -1450 2500 0    50   ~ 0
 Screen_SPI_MISO
-Text Label 1600 2800 0    50   ~ 0
+Text Label -1450 2600 0    50   ~ 0
 Screen_SPI_MOSI
-Text Label 1600 2900 0    50   ~ 0
+Text Label -1450 2700 0    50   ~ 0
 Screen_SPI_CSn_TFT
-Text Label 1600 3200 0    50   ~ 0
+Text Label -1450 3000 0    50   ~ 0
 Screen_TFT_RESET
-Text Label 1600 3100 0    50   ~ 0
+Text Label -1450 2900 0    50   ~ 0
 Screen_TFT_DC
-Text Label 1600 3000 0    50   ~ 0
+Text Label -1450 2800 0    50   ~ 0
 Screen_SPI_CSn_SDCard
-Text Label 1600 3300 0    50   ~ 0
+Text Label -1450 3100 0    50   ~ 0
 Screen_Backlight_PWM
-Text GLabel 1500 1650 0    50   Input ~ 0
+Text GLabel -1550 1450 0    50   Input ~ 0
 LED_ERROR
-Text GLabel 1500 1800 0    50   Input ~ 0
+Text GLabel -1550 1600 0    50   Input ~ 0
 LED_USER_RGB_R
-Text GLabel 1500 1900 0    50   Input ~ 0
+Text GLabel -1550 1700 0    50   Input ~ 0
 LED_USER_RGB_G
-Text GLabel 1500 2000 0    50   Input ~ 0
+Text GLabel -1550 1800 0    50   Input ~ 0
 LED_USER_RGB_B
-Text GLabel 1500 2150 0    50   Input ~ 0
+Text GLabel -1550 1950 0    50   Input ~ 0
 USER_LED_0
-Text GLabel 1500 2250 0    50   Input ~ 0
+Text GLabel -1550 2050 0    50   Input ~ 0
 USER_LED_1
-Text GLabel 1500 2350 0    50   Input ~ 0
+Text GLabel -1550 2150 0    50   Input ~ 0
 USER_LED_2
-Text GLabel 1500 2450 0    50   Input ~ 0
+Text GLabel -1550 2250 0    50   Input ~ 0
 USER_LED_3
-Text GLabel 1500 2600 0    50   Input ~ 0
+Text GLabel -1550 2400 0    50   Input ~ 0
 Screen_SPI_SCLK
-Text GLabel 1500 2700 0    50   Input ~ 0
+Text GLabel -1550 2500 0    50   Input ~ 0
 Screen_SPI_MISO
-Text GLabel 1500 2800 0    50   Input ~ 0
+Text GLabel -1550 2600 0    50   Input ~ 0
 Screen_SPI_MOSI
-Text GLabel 1500 2900 0    50   Input ~ 0
+Text GLabel -1550 2700 0    50   Input ~ 0
 Screen_SPI_CSn_TFT
-Text GLabel 1500 3000 0    50   Input ~ 0
+Text GLabel -1550 2800 0    50   Input ~ 0
 Screen_SPI_CSn_SDCard
-Text GLabel 1500 3100 0    50   Input ~ 0
+Text GLabel -1550 2900 0    50   Input ~ 0
 Screen_TFT_DC
-Text GLabel 1500 3200 0    50   Input ~ 0
+Text GLabel -1550 3000 0    50   Input ~ 0
 Screen_TFT_RESET
-Text GLabel 1500 3300 0    50   Input ~ 0
+Text GLabel -1550 3100 0    50   Input ~ 0
 Screen_Backlight_PWM
-Text GLabel 1500 3400 0    50   Input ~ 0
+Text GLabel -1550 3200 0    50   Input ~ 0
 Screen_Backlight_pot
 Wire Wire Line
-	1500 3550 1600 3550
-Text Label 1600 3550 0    50   ~ 0
+	-1550 3350 -1450 3350
+Text Label -1450 3350 0    50   ~ 0
 JS_left_button
 Wire Wire Line
-	1600 3650 1500 3650
-Text Label 1600 3650 0    50   ~ 0
+	-1450 3450 -1550 3450
+Text Label -1450 3450 0    50   ~ 0
 JS_left_V
 Wire Wire Line
-	1600 3750 1500 3750
-Text Label 1600 3750 0    50   ~ 0
+	-1450 3550 -1550 3550
+Text Label -1450 3550 0    50   ~ 0
 JS_left_H
 Wire Wire Line
-	1600 4000 1500 4000
-Text Label 1600 4000 0    50   ~ 0
+	-1450 3800 -1550 3800
+Text Label -1450 3800 0    50   ~ 0
 JS_right_V
 Wire Wire Line
-	1600 4100 1500 4100
-Text Label 1600 4100 0    50   ~ 0
+	-1450 3900 -1550 3900
+Text Label -1450 3900 0    50   ~ 0
 JS_right_H
 Wire Wire Line
-	1500 3900 1600 3900
-Text Label 1600 3900 0    50   ~ 0
+	-1550 3700 -1450 3700
+Text Label -1450 3700 0    50   ~ 0
 JS_right_button
 Wire Wire Line
-	1500 4250 1600 4250
-Text Label 1600 4250 0    50   ~ 0
+	-1550 4050 -1450 4050
+Text Label -1450 4050 0    50   ~ 0
 Throttle
-Text GLabel 1500 3550 0    50   Input ~ 0
-JS_left_button
-Text GLabel 1500 3650 0    50   Input ~ 0
+Text GLabel -1550 3350 0    50   Input ~ 0
+JS_left_button_out
+Text GLabel -1550 3450 0    50   Input ~ 0
 JS_left_V
-Text GLabel 1500 3750 0    50   Input ~ 0
+Text GLabel -1550 3550 0    50   Input ~ 0
 JS_left_H
-Text GLabel 1500 3900 0    50   Input ~ 0
-JS_right_button
-Text GLabel 1500 4000 0    50   Input ~ 0
+Text GLabel -1550 3700 0    50   Input ~ 0
+JS_right_button_out
+Text GLabel -1550 3800 0    50   Input ~ 0
 JS_right_V
-Text GLabel 1500 4100 0    50   Input ~ 0
+Text GLabel -1550 3900 0    50   Input ~ 0
 JS_right_H
-Text GLabel 1500 4250 0    50   Input ~ 0
+Text GLabel -1550 4050 0    50   Input ~ 0
 Throttle
-Text Label 1600 1000 0    50   ~ 0
+Text Label -1450 800  0    50   ~ 0
 nRF_SPI_SCLK
-Text Label 1600 1100 0    50   ~ 0
+Text Label -1450 900  0    50   ~ 0
 nRF_SPI_MISO
-Text Label 1600 1200 0    50   ~ 0
+Text Label -1450 1000 0    50   ~ 0
 nRF_SPI_MOSI
-Text Label 1600 1300 0    50   ~ 0
+Text Label -1450 1100 0    50   ~ 0
 nRF_SPI_CSn
-Text Label 1600 1400 0    50   ~ 0
+Text Label -1450 1200 0    50   ~ 0
 nRF_IRQ
-Text Label 1600 1500 0    50   ~ 0
-nRF_CE
 Wire Wire Line
 	3950 6450 4050 6450
 Wire Wire Line
@@ -1178,9 +1123,9 @@ Wire Wire Line
 Wire Wire Line
 	7700 3400 7800 3400
 Wire Wire Line
-	3800 1750 3900 1750
+	7700 2900 7800 2900
 Wire Wire Line
-	3800 1650 3900 1650
+	7700 3500 7800 3500
 Text Label 7800 2600 0    50   ~ 0
 nRF_SPI_SCLK
 Text Label 7800 2700 0    50   ~ 0
@@ -1189,13 +1134,13 @@ Text Label 7800 2800 0    50   ~ 0
 nRF_SPI_MOSI
 Text Label 7800 3400 0    50   ~ 0
 nRF_SPI_CSn
-Text Label 3900 1650 0    50   ~ 0
+Text Label 7800 3500 0    50   ~ 0
 nRF_IRQ
-Text Label 3900 1750 0    50   ~ 0
+Text Label 7800 2900 0    50   ~ 0
 nRF_CE
 Wire Wire Line
-	3750 1450 3650 1450
-Text Label 3750 1450 0    50   ~ 0
+	4900 3400 5000 3400
+Text Label 4900 3400 2    50   ~ 0
 Screen_Backlight_pot
 Wire Wire Line
 	7700 2500 7800 2500
@@ -1206,13 +1151,13 @@ Wire Wire Line
 Wire Wire Line
 	7100 1700 7100 1600
 Wire Wire Line
-	3650 1250 3750 1250
+	6700 1700 6700 1600
 Wire Wire Line
-	3650 1150 3750 1150
+	6900 1700 6900 1600
 Wire Wire Line
 	7000 1700 7000 1600
 Wire Wire Line
-	3650 1350 3750 1350
+	6300 1700 6300 1600
 Text Label 7800 2500 0    50   ~ 0
 Screen_SPI_SCLK
 Text Label 7800 2300 0    50   ~ 0
@@ -1221,12 +1166,301 @@ Text Label 7800 2400 0    50   ~ 0
 Screen_SPI_MOSI
 Text Label 7100 1600 1    50   ~ 0
 Screen_SPI_CSn_TFT
-Text Label 3750 1250 0    50   ~ 0
+Text Label 6700 1600 1    50   ~ 0
 Screen_TFT_RESET
-Text Label 3750 1150 0    50   ~ 0
+Text Label 6900 1600 1    50   ~ 0
 Screen_TFT_DC
 Text Label 7000 1600 1    50   ~ 0
 Screen_SPI_CSn_SDCard
-Text Label 3750 1350 0    50   ~ 0
+Text Label 6300 1600 1    50   ~ 0
 Screen_Backlight_PWM
+Wire Wire Line
+	7800 3200 7700 3200
+Wire Wire Line
+	7800 3100 7700 3100
+Text Label 7800 3200 0    50   ~ 0
+Flash_SPI_MOSI
+Text Label 7800 3100 0    50   ~ 0
+Flash_SPI_MISO
+Text Label 6800 1600 1    50   ~ 0
+Flash_SPI_CSn
+Text Label 7800 3000 0    50   ~ 0
+Flash_SPI_SCLK
+Wire Wire Line
+	6800 1600 6800 1700
+Wire Wire Line
+	7800 3000 7700 3000
+Text Label -1450 1300 0    50   ~ 0
+nRF_CE
+Text Label -1450 2250 0    50   ~ 0
+LED_USER_3
+Text Label -1450 2150 0    50   ~ 0
+LED_USER_2
+Text Label -1450 2050 0    50   ~ 0
+LED_USER_1
+Text Label -1450 1950 0    50   ~ 0
+LED_USER_0
+Wire Wire Line
+	-1450 2250 -1550 2250
+Wire Wire Line
+	-1450 2150 -1550 2150
+Wire Wire Line
+	-1450 2050 -1550 2050
+Wire Wire Line
+	-1450 1950 -1550 1950
+Text Label -1450 1600 0    50   ~ 0
+LED_USER_RGB_R
+Text Label -1450 1700 0    50   ~ 0
+LED_USER_RGB_G
+Text Label -1450 1800 0    50   ~ 0
+LED_USER_RGB_B
+Wire Wire Line
+	-1450 1600 -1550 1600
+Wire Wire Line
+	-1450 1700 -1550 1700
+Wire Wire Line
+	-1550 1800 -1450 1800
+Text Label -1450 1450 0    50   ~ 0
+LED_ERROR
+Wire Wire Line
+	-1550 1450 -1450 1450
+Wire Wire Line
+	-1550 1300 -1450 1300
+Text Label 5600 4500 3    50   ~ 0
+LED_USER_3
+Text Label 5800 1600 1    50   ~ 0
+LED_USER_2
+Text Label 6900 4500 3    50   ~ 0
+LED_USER_1
+Text Label 7000 4500 3    50   ~ 0
+LED_USER_0
+Wire Wire Line
+	5600 4500 5600 4400
+Wire Wire Line
+	5800 1600 5800 1700
+Wire Wire Line
+	6900 4500 6900 4400
+Wire Wire Line
+	7000 4500 7000 4400
+Text Label 6200 1600 1    50   ~ 0
+LED_USER_RGB_R
+Text Label 6100 1600 1    50   ~ 0
+LED_USER_RGB_G
+Text Label 4900 3300 2    50   ~ 0
+LED_USER_RGB_B
+Wire Wire Line
+	6200 1600 6200 1700
+Wire Wire Line
+	6100 1600 6100 1700
+Wire Wire Line
+	5000 3300 4900 3300
+Text Label 7100 4500 3    50   ~ 0
+LED_ERROR
+Wire Wire Line
+	7100 4400 7100 4500
+Wire Wire Line
+	800  2350 900  2350
+Text Label 900  2350 0    50   ~ 0
+JS_left_button
+Wire Wire Line
+	5700 4500 5700 4400
+Text Label 5700 4500 3    50   ~ 0
+JS_left_V
+Wire Wire Line
+	4900 3800 5000 3800
+Text Label 4900 3800 2    50   ~ 0
+JS_left_H
+Wire Wire Line
+	4900 3700 5000 3700
+Text Label 4900 3700 2    50   ~ 0
+JS_right_V
+Wire Wire Line
+	4900 3600 5000 3600
+Text Label 4900 3600 2    50   ~ 0
+JS_right_H
+Wire Wire Line
+	800  2500 900  2500
+Text Label 900  2500 0    50   ~ 0
+JS_right_button
+Wire Wire Line
+	5800 4400 5800 4500
+Text Label 5800 4500 3    50   ~ 0
+Throttle
+Text GLabel -1550 4250 0    50   Input ~ 0
+KB_SW_0
+Text GLabel -1550 4350 0    50   Input ~ 0
+KB_SW_1
+Text GLabel -1550 4450 0    50   Input ~ 0
+KB_SW_2
+Text GLabel -1550 4550 0    50   Input ~ 0
+KB_SW_3
+Text GLabel -1550 4650 0    50   Input ~ 0
+KB_SW_4
+Text GLabel -1550 4750 0    50   Input ~ 0
+KB_SW_5
+Text GLabel -1550 4850 0    50   Input ~ 0
+KB_SW_6
+Text GLabel -1550 4950 0    50   Input ~ 0
+KB_SW_7
+Text GLabel -1550 5050 0    50   Input ~ 0
+KB_SW_8
+Text GLabel -1550 5150 0    50   Input ~ 0
+KB_SW_9
+Wire Wire Line
+	-1550 4250 -1450 4250
+Wire Wire Line
+	-1550 4350 -1450 4350
+Wire Wire Line
+	-1550 4450 -1450 4450
+Wire Wire Line
+	-1550 4550 -1450 4550
+Wire Wire Line
+	-1550 4650 -1450 4650
+Wire Wire Line
+	-1550 4750 -1450 4750
+Wire Wire Line
+	-1550 4850 -1450 4850
+Wire Wire Line
+	-1550 4950 -1450 4950
+Wire Wire Line
+	-1550 5050 -1450 5050
+Wire Wire Line
+	-1550 5150 -1450 5150
+Text GLabel -1550 5250 0    50   Input ~ 0
+KB_SW_ENTER
+Text GLabel -1550 5350 0    50   Input ~ 0
+KB_SW_point
+Text GLabel -1550 5450 0    50   Input ~ 0
+KB_SW_M0
+Text GLabel -1550 5550 0    50   Input ~ 0
+KB_SW_M1
+Text GLabel -1550 5650 0    50   Input ~ 0
+KB_SW_M2
+Text GLabel -1550 5750 0    50   Input ~ 0
+KB_SW_M3
+Wire Wire Line
+	-1550 5250 -1450 5250
+Wire Wire Line
+	-1550 5350 -1450 5350
+Wire Wire Line
+	-1550 5450 -1450 5450
+Wire Wire Line
+	-1550 5550 -1450 5550
+Wire Wire Line
+	-1550 5650 -1450 5650
+Wire Wire Line
+	-1550 5750 -1450 5750
+Text Label -1450 4250 0    50   ~ 0
+KB_SW_0
+Text Label -1450 4350 0    50   ~ 0
+KB_SW_1
+Text Label -1450 4450 0    50   ~ 0
+KB_SW_2
+Text Label -1450 4550 0    50   ~ 0
+KB_SW_3
+Text Label -1450 4650 0    50   ~ 0
+KB_SW_4
+Text Label -1450 4750 0    50   ~ 0
+KB_SW_5
+Text Label -1450 4850 0    50   ~ 0
+KB_SW_6
+Text Label -1450 4950 0    50   ~ 0
+KB_SW_7
+Text Label -1450 5050 0    50   ~ 0
+KB_SW_8
+Text Label -1450 5150 0    50   ~ 0
+KB_SW_9
+Text Label -1450 5250 0    50   ~ 0
+KB_SW_ENTER
+Text Label -1450 5350 0    50   ~ 0
+KB_SW_point
+Text Label -1450 5450 0    50   ~ 0
+KB_SW_M0
+Text Label -1450 5550 0    50   ~ 0
+KB_SW_M1
+Text Label -1450 5650 0    50   ~ 0
+KB_SW_M2
+Text Label -1450 5750 0    50   ~ 0
+KB_SW_M3
+Wire Wire Line
+	800  700  900  700 
+Wire Wire Line
+	800  800  900  800 
+Wire Wire Line
+	800  900  900  900 
+Wire Wire Line
+	800  1000 900  1000
+Wire Wire Line
+	800  1100 900  1100
+Wire Wire Line
+	800  1200 900  1200
+Wire Wire Line
+	800  1300 900  1300
+Wire Wire Line
+	800  1400 900  1400
+Wire Wire Line
+	800  1500 900  1500
+Wire Wire Line
+	800  1600 900  1600
+Wire Wire Line
+	800  1700 900  1700
+Wire Wire Line
+	800  1800 900  1800
+Wire Wire Line
+	800  1900 900  1900
+Wire Wire Line
+	800  2000 900  2000
+Wire Wire Line
+	800  2100 900  2100
+Wire Wire Line
+	800  2200 900  2200
+Text Label 900  700  0    50   ~ 0
+KB_SW_0
+Text Label 900  800  0    50   ~ 0
+KB_SW_1
+Text Label 900  900  0    50   ~ 0
+KB_SW_2
+Text Label 900  1000 0    50   ~ 0
+KB_SW_3
+Text Label 900  1100 0    50   ~ 0
+KB_SW_4
+Text Label 900  1200 0    50   ~ 0
+KB_SW_5
+Text Label 900  1300 0    50   ~ 0
+KB_SW_6
+Text Label 900  1400 0    50   ~ 0
+KB_SW_7
+Text Label 900  1500 0    50   ~ 0
+KB_SW_8
+Text Label 900  1600 0    50   ~ 0
+KB_SW_9
+Text Label 900  1700 0    50   ~ 0
+KB_SW_ENTER
+Text Label 900  1800 0    50   ~ 0
+KB_SW_point
+Text Label 900  1900 0    50   ~ 0
+KB_SW_M0
+Text Label 900  2000 0    50   ~ 0
+KB_SW_M1
+Text Label 900  2100 0    50   ~ 0
+KB_SW_M2
+Text Label 900  2200 0    50   ~ 0
+KB_SW_M3
+Wire Notes Line
+	11100 600  11100 2000
+Wire Notes Line
+	8200 600  8200 2000
+Wire Wire Line
+	5000 3100 4100 3100
+$Comp
+L power:GND #PWR0204
+U 1 1 5F99D8EB
+P 4100 3100
+F 0 "#PWR0204" H 4100 2850 50  0001 C CNN
+F 1 "GND" H 4105 2927 50  0000 C CNN
+F 2 "" H 4100 3100 50  0001 C CNN
+F 3 "" H 4100 3100 50  0001 C CNN
+	1    4100 3100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
