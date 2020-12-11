@@ -744,4 +744,76 @@ Text Label 1600 2950 0    50   ~ 0
 KB_SW_M2
 Text Label 1600 3050 0    50   ~ 0
 KB_SW_M3
+Wire Wire Line
+	3600 1500 3700 1500
+Wire Wire Line
+	3600 4000 3700 4000
+Wire Wire Line
+	5600 3500 5700 3500
+Wire Wire Line
+	5600 2500 5700 2500
+Wire Wire Line
+	3600 3500 3700 3500
+Wire Wire Line
+	5600 4000 5700 4000
+Wire Wire Line
+	3600 3000 3700 3000
+Wire Wire Line
+	3600 2500 3700 2500
+Wire Wire Line
+	5600 1500 5700 1500
+Wire Wire Line
+	5600 2000 5700 2000
+Wire Wire Line
+	5600 3000 5700 3000
+Wire Wire Line
+	7600 3500 7700 3500
+Wire Wire Line
+	7600 2500 7700 2500
+Wire Wire Line
+	7600 2000 7700 2000
+Wire Wire Line
+	7600 3000 7700 3000
+Text Label 3700 1500 0    50   ~ 0
+KB_SW_0
+Text Label 3700 4000 0    50   ~ 0
+KB_SW_1
+Text Label 5700 3500 0    50   ~ 0
+KB_SW_2
+Text Label 5700 2500 0    50   ~ 0
+KB_SW_3
+Text Label 3700 3500 0    50   ~ 0
+KB_SW_4
+Text Label 3700 3000 0    50   ~ 0
+KB_SW_7
+Text Label 3700 2500 0    50   ~ 0
+KB_SW_8
+Text Label 5700 1500 0    50   ~ 0
+KB_SW_9
+Text Label 5700 2000 0    50   ~ 0
+KB_SW_ENTER
+Text Label 5700 3000 0    50   ~ 0
+KB_SW_point
+Text Label 7700 3500 0    50   ~ 0
+KB_SW_M0
+Text Label 7700 2500 0    50   ~ 0
+KB_SW_M1
+Text Label 7700 2000 0    50   ~ 0
+KB_SW_M2
+Text Label 7700 3000 0    50   ~ 0
+KB_SW_M3
+Text Label 5700 4000 0    50   ~ 0
+KB_SW_6
+Text Label 3700 2000 0    50   ~ 0
+KB_SW_5
+Wire Wire Line
+	3600 2000 3700 2000
+Wire Wire Line
+	7600 4000 7700 4000
+Text Label 7700 4000 0    50   ~ 0
+JS_left_button_out
+Wire Wire Line
+	7600 1500 7700 1500
+Text Label 7700 1500 0    50   ~ 0
+JS_right_button_out
 $EndSCHEMATC
