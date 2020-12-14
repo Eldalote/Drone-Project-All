@@ -51,8 +51,6 @@ Text Label 8800 1450 2    50   ~ 0
 JS_left_V
 Text Label 8800 1850 2    50   ~ 0
 JS_left_H
-NoConn ~ 8900 2550
-NoConn ~ 8900 4300
 $Comp
 L power:+3V3 #PWR0116
 U 1 1 5FB946E6
@@ -336,4 +334,26 @@ Text GLabel 1500 1600 0    50   Input ~ 0
 JS_right_H
 Text GLabel 1500 1800 0    50   Input ~ 0
 Throttle
+$Comp
+L power:GND #PWR0107
+U 1 1 5FD8130D
+P 8900 4300
+F 0 "#PWR0107" H 8900 4050 50  0001 C CNN
+F 1 "GND" H 8905 4172 50  0000 R CNN
+F 2 "" H 8900 4300 50  0001 C CNN
+F 3 "" H 8900 4300 50  0001 C CNN
+	1    8900 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5FD819A5
+P 8900 2550
+F 0 "#PWR0108" H 8900 2300 50  0001 C CNN
+F 1 "GND" H 8905 2422 50  0000 R CNN
+F 2 "" H 8900 2550 50  0001 C CNN
+F 3 "" H 8900 2550 50  0001 C CNN
+	1    8900 2550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
