@@ -832,123 +832,123 @@ Text Notes 9050 600  0    79   ~ 0
 USB Connector
 Text Notes 4300 5550 0    79   ~ 0
 User Flash
-Text GLabel -1550 800  0    50   Input ~ 0
+Text GLabel 1500 1000 0    50   Input ~ 0
 nRF_SCLK
-Text GLabel -1550 1300 0    50   Input ~ 0
+Text GLabel 1500 1500 0    50   Input ~ 0
 nRF_CE
-Text GLabel -1550 1100 0    50   Input ~ 0
+Text GLabel 1500 1300 0    50   Input ~ 0
 nRF_CSn
-Text GLabel -1550 1000 0    50   Input ~ 0
+Text GLabel 1500 1200 0    50   Input ~ 0
 nRF_MOSI
-Text GLabel -1550 1200 0    50   Input ~ 0
+Text GLabel 1500 1400 0    50   Input ~ 0
 nRF_IRQ
-Text GLabel -1550 900  0    50   Input ~ 0
+Text GLabel 1500 1100 0    50   Input ~ 0
 nRF_MISO
 Wire Wire Line
-	-1550 1000 -1450 1000
+	1500 1200 1600 1200
 Wire Wire Line
-	-1550 900  -1450 900 
+	1500 1100 1600 1100
 Wire Wire Line
-	-1550 800  -1450 800 
+	1500 1000 1600 1000
 Wire Wire Line
-	-1550 1100 -1450 1100
+	1500 1300 1600 1300
 Wire Wire Line
-	-1550 1200 -1450 1200
+	1500 1400 1600 1400
 Wire Wire Line
-	-1550 2400 -1450 2400
+	1500 1700 1600 1700
 Wire Wire Line
-	-1550 2500 -1450 2500
+	1500 1800 1600 1800
 Wire Wire Line
-	-1550 2600 -1450 2600
+	1500 1900 1600 1900
 Wire Wire Line
-	-1550 2700 -1450 2700
+	1500 2000 1600 2000
 Wire Wire Line
-	-1550 3000 -1450 3000
+	1500 2300 1600 2300
 Wire Wire Line
-	-1550 2900 -1450 2900
+	1500 2200 1600 2200
 Wire Wire Line
-	-1550 2800 -1450 2800
-Text Label -1450 2400 0    50   ~ 0
+	1500 2100 1600 2100
+Text Label 1600 1700 0    50   ~ 0
 Screen_SPI_SCLK
-Text Label -1450 2500 0    50   ~ 0
+Text Label 1600 1800 0    50   ~ 0
 Screen_SPI_MISO
-Text Label -1450 2600 0    50   ~ 0
+Text Label 1600 1900 0    50   ~ 0
 Screen_SPI_MOSI
-Text Label -1450 2700 0    50   ~ 0
+Text Label 1600 2000 0    50   ~ 0
 Screen_SPI_CSn_TFT
-Text Label -1450 3000 0    50   ~ 0
+Text Label 1600 2300 0    50   ~ 0
 Screen_TFT_RESET
-Text Label -1450 2900 0    50   ~ 0
+Text Label 1600 2200 0    50   ~ 0
 Screen_TFT_DC
-Text Label -1450 2800 0    50   ~ 0
+Text Label 1600 2100 0    50   ~ 0
 Screen_SPI_CSn_SDCard
-Text GLabel -1550 1450 0    50   Input ~ 0
+Text GLabel 1500 3700 0    50   Input ~ 0
 LED_ERROR
-Text GLabel -1550 2400 0    50   Input ~ 0
+Text GLabel 1500 1700 0    50   Input ~ 0
 Screen_SPI_SCLK
-Text GLabel -1550 2500 0    50   Input ~ 0
+Text GLabel 1500 1800 0    50   Input ~ 0
 Screen_SPI_MISO
-Text GLabel -1550 2600 0    50   Input ~ 0
+Text GLabel 1500 1900 0    50   Input ~ 0
 Screen_SPI_MOSI
-Text GLabel -1550 2700 0    50   Input ~ 0
+Text GLabel 1500 2000 0    50   Input ~ 0
 Screen_SPI_CSn_TFT
-Text GLabel -1550 2800 0    50   Input ~ 0
+Text GLabel 1500 2100 0    50   Input ~ 0
 Screen_SPI_CSn_SDCard
-Text GLabel -1550 2900 0    50   Input ~ 0
+Text GLabel 1500 2200 0    50   Input ~ 0
 Screen_TFT_DC
-Text GLabel -1550 3000 0    50   Input ~ 0
+Text GLabel 1500 2300 0    50   Input ~ 0
 Screen_TFT_RESET
 Wire Wire Line
-	-1550 3350 -1450 3350
-Text Label -1450 3350 0    50   ~ 0
+	1500 2500 1600 2500
+Text Label 1600 2500 0    50   ~ 0
 JS_left_button
 Wire Wire Line
-	-1450 3450 -1550 3450
-Text Label -1450 3450 0    50   ~ 0
+	1600 2600 1500 2600
+Text Label 1600 2600 0    50   ~ 0
 JS_left_V
 Wire Wire Line
-	-1450 3550 -1550 3550
-Text Label -1450 3550 0    50   ~ 0
+	1600 2700 1500 2700
+Text Label 1600 2700 0    50   ~ 0
 JS_left_H
 Wire Wire Line
-	-1450 3800 -1550 3800
-Text Label -1450 3800 0    50   ~ 0
+	1600 2950 1500 2950
+Text Label 1600 2950 0    50   ~ 0
 JS_right_V
 Wire Wire Line
-	-1450 3900 -1550 3900
-Text Label -1450 3900 0    50   ~ 0
+	1600 3050 1500 3050
+Text Label 1600 3050 0    50   ~ 0
 JS_right_H
 Wire Wire Line
-	-1550 3700 -1450 3700
-Text Label -1450 3700 0    50   ~ 0
+	1500 2850 1600 2850
+Text Label 1600 2850 0    50   ~ 0
 JS_right_button
 Wire Wire Line
-	-1550 4050 -1450 4050
-Text Label -1450 4050 0    50   ~ 0
+	1500 3200 1600 3200
+Text Label 1600 3200 0    50   ~ 0
 Throttle
-Text GLabel -1550 3350 0    50   Input ~ 0
+Text GLabel 1500 2500 0    50   Input ~ 0
 JS_left_button_out
-Text GLabel -1550 3450 0    50   Input ~ 0
+Text GLabel 1500 2600 0    50   Input ~ 0
 JS_left_V
-Text GLabel -1550 3550 0    50   Input ~ 0
+Text GLabel 1500 2700 0    50   Input ~ 0
 JS_left_H
-Text GLabel -1550 3700 0    50   Input ~ 0
+Text GLabel 1500 2850 0    50   Input ~ 0
 JS_right_button_out
-Text GLabel -1550 3800 0    50   Input ~ 0
+Text GLabel 1500 2950 0    50   Input ~ 0
 JS_right_V
-Text GLabel -1550 3900 0    50   Input ~ 0
+Text GLabel 1500 3050 0    50   Input ~ 0
 JS_right_H
-Text GLabel -1550 4050 0    50   Input ~ 0
+Text GLabel 1500 3200 0    50   Input ~ 0
 Throttle
-Text Label -1450 800  0    50   ~ 0
+Text Label 1600 1000 0    50   ~ 0
 nRF_SPI_SCLK
-Text Label -1450 900  0    50   ~ 0
+Text Label 1600 1100 0    50   ~ 0
 nRF_SPI_MISO
-Text Label -1450 1000 0    50   ~ 0
+Text Label 1600 1200 0    50   ~ 0
 nRF_SPI_MOSI
-Text Label -1450 1100 0    50   ~ 0
+Text Label 1600 1300 0    50   ~ 0
 nRF_SPI_CSn
-Text Label -1450 1200 0    50   ~ 0
+Text Label 1600 1400 0    50   ~ 0
 nRF_IRQ
 Wire Wire Line
 	3950 6450 4050 6450
@@ -1156,14 +1156,14 @@ Wire Wire Line
 	6800 1600 6800 1700
 Wire Wire Line
 	7800 3000 7700 3000
-Text Label -1450 1300 0    50   ~ 0
+Text Label 1600 1500 0    50   ~ 0
 nRF_CE
-Text Label -1450 1450 0    50   ~ 0
+Text Label 1600 3700 0    50   ~ 0
 LED_ERROR
 Wire Wire Line
-	-1550 1450 -1450 1450
+	1500 3700 1600 3700
 Wire Wire Line
-	-1550 1300 -1450 1300
+	1500 1500 1600 1500
 Wire Wire Line
 	5800 1700 5800 1600
 Text Label 6000 1600 1    50   ~ 0
@@ -1192,101 +1192,101 @@ Wire Wire Line
 	5800 4400 5800 4500
 Text Label 5800 4500 3    50   ~ 0
 Throttle
-Text GLabel -1550 4250 0    50   Input ~ 0
+Text GLabel 1500 3900 0    50   Input ~ 0
 KB_SW_0
-Text GLabel -1550 4350 0    50   Input ~ 0
+Text GLabel 1500 4000 0    50   Input ~ 0
 KB_SW_1
-Text GLabel -1550 4450 0    50   Input ~ 0
+Text GLabel 1500 4100 0    50   Input ~ 0
 KB_SW_2
-Text GLabel -1550 4550 0    50   Input ~ 0
+Text GLabel 1500 4200 0    50   Input ~ 0
 KB_SW_3
-Text GLabel -1550 4650 0    50   Input ~ 0
+Text GLabel 1500 4300 0    50   Input ~ 0
 KB_SW_4
-Text GLabel -1550 4750 0    50   Input ~ 0
+Text GLabel 1500 4400 0    50   Input ~ 0
 KB_SW_5
-Text GLabel -1550 4850 0    50   Input ~ 0
+Text GLabel 1500 4500 0    50   Input ~ 0
 KB_SW_6
-Text GLabel -1550 4950 0    50   Input ~ 0
+Text GLabel 1500 4600 0    50   Input ~ 0
 KB_SW_7
-Text GLabel -1550 5050 0    50   Input ~ 0
+Text GLabel 1500 4700 0    50   Input ~ 0
 KB_SW_8
-Text GLabel -1550 5150 0    50   Input ~ 0
+Text GLabel 1500 4800 0    50   Input ~ 0
 KB_SW_9
 Wire Wire Line
-	-1550 4250 -1450 4250
+	1500 3900 1600 3900
 Wire Wire Line
-	-1550 4350 -1450 4350
+	1500 4000 1600 4000
 Wire Wire Line
-	-1550 4450 -1450 4450
+	1500 4100 1600 4100
 Wire Wire Line
-	-1550 4550 -1450 4550
+	1500 4200 1600 4200
 Wire Wire Line
-	-1550 4650 -1450 4650
+	1500 4300 1600 4300
 Wire Wire Line
-	-1550 4750 -1450 4750
+	1500 4400 1600 4400
 Wire Wire Line
-	-1550 4850 -1450 4850
+	1500 4500 1600 4500
 Wire Wire Line
-	-1550 4950 -1450 4950
+	1500 4600 1600 4600
 Wire Wire Line
-	-1550 5050 -1450 5050
+	1500 4700 1600 4700
 Wire Wire Line
-	-1550 5150 -1450 5150
-Text GLabel -1550 5250 0    50   Input ~ 0
+	1500 4800 1600 4800
+Text GLabel 1500 4900 0    50   Input ~ 0
 KB_SW_ENTER
-Text GLabel -1550 5350 0    50   Input ~ 0
+Text GLabel 1500 5000 0    50   Input ~ 0
 KB_SW_point
-Text GLabel -1550 5450 0    50   Input ~ 0
+Text GLabel 1500 5100 0    50   Input ~ 0
 KB_SW_M0
-Text GLabel -1550 5550 0    50   Input ~ 0
+Text GLabel 1500 5200 0    50   Input ~ 0
 KB_SW_M1
-Text GLabel -1550 5650 0    50   Input ~ 0
+Text GLabel 1500 5300 0    50   Input ~ 0
 KB_SW_M2
-Text GLabel -1550 5750 0    50   Input ~ 0
+Text GLabel 1500 5400 0    50   Input ~ 0
 KB_SW_M3
 Wire Wire Line
-	-1550 5250 -1450 5250
+	1500 4900 1600 4900
 Wire Wire Line
-	-1550 5350 -1450 5350
+	1500 5000 1600 5000
 Wire Wire Line
-	-1550 5450 -1450 5450
+	1500 5100 1600 5100
 Wire Wire Line
-	-1550 5550 -1450 5550
+	1500 5200 1600 5200
 Wire Wire Line
-	-1550 5650 -1450 5650
+	1500 5300 1600 5300
 Wire Wire Line
-	-1550 5750 -1450 5750
-Text Label -1450 4250 0    50   ~ 0
+	1500 5400 1600 5400
+Text Label 1600 3900 0    50   ~ 0
 KB_SW_0
-Text Label -1450 4350 0    50   ~ 0
+Text Label 1600 4000 0    50   ~ 0
 KB_SW_1
-Text Label -1450 4450 0    50   ~ 0
+Text Label 1600 4100 0    50   ~ 0
 KB_SW_2
-Text Label -1450 4550 0    50   ~ 0
+Text Label 1600 4200 0    50   ~ 0
 KB_SW_3
-Text Label -1450 4650 0    50   ~ 0
+Text Label 1600 4300 0    50   ~ 0
 KB_SW_4
-Text Label -1450 4750 0    50   ~ 0
+Text Label 1600 4400 0    50   ~ 0
 KB_SW_5
-Text Label -1450 4850 0    50   ~ 0
+Text Label 1600 4500 0    50   ~ 0
 KB_SW_6
-Text Label -1450 4950 0    50   ~ 0
+Text Label 1600 4600 0    50   ~ 0
 KB_SW_7
-Text Label -1450 5050 0    50   ~ 0
+Text Label 1600 4700 0    50   ~ 0
 KB_SW_8
-Text Label -1450 5150 0    50   ~ 0
+Text Label 1600 4800 0    50   ~ 0
 KB_SW_9
-Text Label -1450 5250 0    50   ~ 0
+Text Label 1600 4900 0    50   ~ 0
 KB_SW_ENTER
-Text Label -1450 5350 0    50   ~ 0
+Text Label 1600 5000 0    50   ~ 0
 KB_SW_point
-Text Label -1450 5450 0    50   ~ 0
+Text Label 1600 5100 0    50   ~ 0
 KB_SW_M0
-Text Label -1450 5550 0    50   ~ 0
+Text Label 1600 5200 0    50   ~ 0
 KB_SW_M1
-Text Label -1450 5650 0    50   ~ 0
+Text Label 1600 5300 0    50   ~ 0
 KB_SW_M2
-Text Label -1450 5750 0    50   ~ 0
+Text Label 1600 5400 0    50   ~ 0
 KB_SW_M3
 Wire Wire Line
 	6600 4400 6600 4500
@@ -1370,22 +1370,22 @@ F 3 "" H 4100 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-1550 6300 -1450 6300
+	1500 3600 1600 3600
 Wire Wire Line
-	-1450 6200 -1550 6200
+	1600 3500 1500 3500
 Wire Wire Line
-	-1450 6100 -1550 6100
-Text Label -1450 6300 0    50   ~ 0
+	1600 3400 1500 3400
+Text Label 1600 3600 0    50   ~ 0
 LED_RGB_EN
-Text Label -1450 6200 0    50   ~ 0
+Text Label 1600 3500 0    50   ~ 0
 LED_RGB_I2C_SDA
-Text Label -1450 6100 0    50   ~ 0
+Text Label 1600 3400 0    50   ~ 0
 LED_RGB_I2C_SCL
-Text GLabel -1550 6100 0    50   Input ~ 0
+Text GLabel 1500 3400 0    50   Input ~ 0
 LED_RGB_I2C_SCL
-Text GLabel -1550 6200 0    50   Input ~ 0
+Text GLabel 1500 3500 0    50   Input ~ 0
 LED_RGB_I2C_SDA
-Text GLabel -1550 6300 0    50   Input ~ 0
+Text GLabel 1500 3600 0    50   Input ~ 0
 LED_RGB_EN
 Wire Wire Line
 	6900 4400 6900 4500
@@ -1406,4 +1406,16 @@ Wire Wire Line
 NoConn ~ 5600 4400
 NoConn ~ 5050 6650
 NoConn ~ 5050 6750
+Wire Notes Line
+	2600 800  2600 5500
+Wire Notes Line
+	2600 5500 500  5500
+Wire Notes Line
+	500  5500 500  800 
+Wire Notes Line
+	500  800  2600 800 
+Text Notes 1650 800  2    79   ~ 0
+Sheet IO
+Text Notes 5100 750  2    50   ~ 0
+Everything on this sheet place on bottom of PCB
 $EndSCHEMATC

@@ -816,4 +816,16 @@ Wire Wire Line
 	7600 1500 7700 1500
 Text Label 7700 1500 0    50   ~ 0
 JS_right_button_out
+Wire Notes Line
+	2450 850  2450 3200
+Wire Notes Line
+	2450 3200 650  3200
+Wire Notes Line
+	650  3200 650  850 
+Wire Notes Line
+	650  850  2450 850 
+Text Notes 1650 850  2    79   ~ 0
+Sheet IO
+Text Notes 5900 900  2    50   ~ 0
+Everything on this sheet on the bottom of the PCB
 $EndSCHEMATC

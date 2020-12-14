@@ -1,0 +1,498 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 12 15
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Cyclone10LP_040:10CL040_F484 U1201
+U 2 1 5F48E945
+P 5300 650
+F 0 "U1201" H 5300 700 35  0000 L CNN
+F 1 "10CL040_F484" H 6350 -5275 35  0001 L CNN
+F 2 "SamacSys_Parts:BGA484C100P22X22_2300X2300X200" H 6350 -5320 35  0001 L CNN
+F 3 "" H 5300 650 50  0001 C CNN
+F 4 "TRUE" H 6350 -5365 35  0001 L CNN "SPLIT_INST"
+F 5 "(S1+S2+S3+S4+S5+S6+S7+S8+S9+S10+S11+S12+S13)" H 6350 -5410 35  0001 L CNN "SWAP_INFO"
+	2    5300 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cyclone10LP_040:10CL040_F484 U1201
+U 3 1 5F4AE0F4
+P 7800 650
+F 0 "U1201" H 7800 700 35  0000 L CNN
+F 1 "10CL040_F484" H 8850 -5275 35  0001 L CNN
+F 2 "SamacSys_Parts:BGA484C100P22X22_2300X2300X200" H 8850 -5320 35  0001 L CNN
+F 3 "" H 7800 650 50  0001 C CNN
+F 4 "TRUE" H 8850 -5365 35  0001 L CNN "SPLIT_INST"
+F 5 "(S1+S2+S3+S4+S5+S6+S7+S8+S9+S10+S11+S12+S13)" H 8850 -5410 35  0001 L CNN "SWAP_INFO"
+	3    7800 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cyclone10LP_040:10CL040_F484 U1201
+U 4 1 5F4BF162
+P 10500 650
+F 0 "U1201" H 10500 700 35  0000 L CNN
+F 1 "10CL040_F484" H 11550 -5275 35  0001 L CNN
+F 2 "SamacSys_Parts:BGA484C100P22X22_2300X2300X200" H 11550 -5320 35  0001 L CNN
+F 3 "" H 10500 650 50  0001 C CNN
+F 4 "TRUE" H 11550 -5365 35  0001 L CNN "SPLIT_INST"
+F 5 "(S1+S2+S3+S4+S5+S6+S7+S8+S9+S10+S11+S12+S13)" H 11550 -5410 35  0001 L CNN "SWAP_INFO"
+	4    10500 650 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1050 1200 1050
+Wire Wire Line
+	1300 950  1200 950 
+Wire Wire Line
+	1300 850  1200 850 
+Wire Wire Line
+	1300 750  1200 750 
+Text Label 1300 1050 0    50   ~ 0
+BNO_SDA
+Text Label 1300 950  0    50   ~ 0
+BNO_SCL
+Text Label 1300 850  0    50   ~ 0
+BNO_NRESET
+Text Label 1300 750  0    50   ~ 0
+BNO_INT
+Text GLabel 1200 1050 0    50   Input ~ 0
+BNO_SDA
+Text GLabel 1200 950  0    50   Input ~ 0
+BNO_SCL
+Text GLabel 1200 850  0    50   Input ~ 0
+BNO_NRESET
+Text GLabel 1200 750  0    50   Input ~ 0
+BNO_INT
+Wire Wire Line
+	5000 1600 5100 1600
+Wire Wire Line
+	5000 1300 5100 1300
+Wire Wire Line
+	5000 900  5100 900 
+Wire Wire Line
+	5000 1000 5100 1000
+Text Label 5000 1600 2    50   ~ 0
+BNO_SDA
+Text Label 5000 1300 2    50   ~ 0
+BNO_SCL
+Text Label 5000 900  2    50   ~ 0
+BNO_NRESET
+Text Label 5000 1000 2    50   ~ 0
+BNO_INT
+Text Label 4950 3000 2    50   ~ 0
+User_flash_CSn
+Text Label 4950 1700 2    50   ~ 0
+User_flash_IO0
+Text Label 4950 2900 2    50   ~ 0
+User_flash_IO1
+Text Label 4950 2800 2    50   ~ 0
+User_flash_IO2
+Text Label 4950 2700 2    50   ~ 0
+User_flash_IO3
+Text Label 4950 1800 2    50   ~ 0
+User_flash_CLK
+Wire Wire Line
+	5100 1800 4950 1800
+Wire Wire Line
+	5100 3000 4950 3000
+Wire Wire Line
+	5100 1700 4950 1700
+Wire Wire Line
+	5100 2900 4950 2900
+Wire Wire Line
+	5100 2800 4950 2800
+Wire Wire Line
+	5100 2700 4950 2700
+Text Label 1350 1650 0    50   ~ 0
+User_flash_CSn
+Text Label 1350 1550 0    50   ~ 0
+User_flash_IO0
+Text Label 1350 1450 0    50   ~ 0
+User_flash_IO1
+Text Label 1350 1350 0    50   ~ 0
+User_flash_IO2
+Text Label 1350 1250 0    50   ~ 0
+User_flash_IO3
+Text Label 1350 1750 0    50   ~ 0
+User_flash_CLK
+Text GLabel 1200 1750 0    50   Input ~ 0
+User_flash_CLK
+Text GLabel 1200 1650 0    50   Input ~ 0
+User_flash_CSn
+Text GLabel 1200 1550 0    50   Input ~ 0
+User_flash_IO0
+Text GLabel 1200 1450 0    50   Input ~ 0
+User_flash_IO1
+Text GLabel 1200 1350 0    50   Input ~ 0
+User_flash_IO2
+Text GLabel 1200 1250 0    50   Input ~ 0
+User_flash_IO3
+Wire Wire Line
+	1200 1750 1350 1750
+Wire Wire Line
+	1200 1650 1350 1650
+Wire Wire Line
+	1200 1550 1350 1550
+Wire Wire Line
+	1200 1450 1350 1450
+Wire Wire Line
+	1200 1350 1350 1350
+Wire Wire Line
+	1200 1250 1350 1250
+Text GLabel 1200 2350 0    50   Input ~ 0
+ESC4
+Text GLabel 1200 2250 0    50   Input ~ 0
+ESC3
+Text GLabel 1200 2150 0    50   Input ~ 0
+ESC2
+Text GLabel 1200 2050 0    50   Input ~ 0
+ESC1
+Text GLabel 1200 1950 0    50   Input ~ 0
+ESC-TX
+Wire Wire Line
+	1200 1950 1400 1950
+Text Label 1400 1950 0    50   ~ 0
+ESC-TX
+Text Label 1400 2050 0    50   ~ 0
+ESC1
+Text Label 1400 2150 0    50   ~ 0
+ESC2
+Text Label 1400 2250 0    50   ~ 0
+ESC3
+Text Label 1400 2350 0    50   ~ 0
+ESC4
+Wire Wire Line
+	1200 2050 1400 2050
+Wire Wire Line
+	1200 2150 1400 2150
+Wire Wire Line
+	1200 2250 1400 2250
+Wire Wire Line
+	1200 2350 1400 2350
+Wire Wire Line
+	7600 1700 7400 1700
+Text Label 7400 1700 2    50   ~ 0
+ESC-TX
+Text Label 7400 1300 2    50   ~ 0
+ESC1
+Text Label 7400 1400 2    50   ~ 0
+ESC2
+Text Label 7400 900  2    50   ~ 0
+ESC3
+Text Label 7400 1000 2    50   ~ 0
+ESC4
+Wire Wire Line
+	7600 1300 7400 1300
+Wire Wire Line
+	7600 1400 7400 1400
+Wire Wire Line
+	7600 900  7400 900 
+Wire Wire Line
+	7600 1000 7400 1000
+Wire Wire Line
+	1300 3050 1200 3050
+Wire Wire Line
+	1300 2950 1200 2950
+Wire Wire Line
+	1300 2850 1200 2850
+Wire Wire Line
+	1300 2750 1200 2750
+Wire Wire Line
+	1300 2650 1200 2650
+Wire Wire Line
+	1300 2550 1200 2550
+Text Label 1300 3050 0    50   ~ 0
+ICM_SCLK
+Text Label 1300 2950 0    50   ~ 0
+ICM_CSn
+Text Label 1300 2850 0    50   ~ 0
+ICM_MOSI
+Text Label 1300 2750 0    50   ~ 0
+ICM_MISO
+Text Label 1300 2650 0    50   ~ 0
+ICM_INT
+Text Label 1300 2550 0    50   ~ 0
+ICM_FSYNC
+Text GLabel 1200 3050 0    50   Input ~ 0
+ICM_SCLK
+Text GLabel 1200 2950 0    50   Input ~ 0
+ICM_CSn
+Text GLabel 1200 2850 0    50   Input ~ 0
+ICM_MOSI
+Text GLabel 1200 2750 0    50   Input ~ 0
+ICM_MISO
+Text GLabel 1200 2650 0    50   Input ~ 0
+ICM_INT
+Text GLabel 1200 2550 0    50   Input ~ 0
+ICM_FSYNC
+Wire Wire Line
+	10200 3500 10300 3500
+Wire Wire Line
+	10200 3600 10300 3600
+Wire Wire Line
+	10200 3400 10300 3400
+Wire Wire Line
+	10200 3700 10300 3700
+Wire Wire Line
+	10200 4100 10300 4100
+Wire Wire Line
+	10200 4200 10300 4200
+Text Label 10200 3500 2    50   ~ 0
+ICM_SCLK
+Text Label 10200 3600 2    50   ~ 0
+ICM_CSn
+Text Label 10200 3400 2    50   ~ 0
+ICM_MOSI
+Text Label 10200 3700 2    50   ~ 0
+ICM_MISO
+Text Label 10200 4100 2    50   ~ 0
+ICM_INT
+Text Label 10200 4200 2    50   ~ 0
+ICM_FSYNC
+Text Label 1300 4050 0    50   ~ 0
+FTDI-ADBUS4
+Text Label 1300 3950 0    50   ~ 0
+FTDI-ADBUS5
+Text Label 1300 3850 0    50   ~ 0
+FTDI-ADBUS6
+Text Label 1300 3750 0    50   ~ 0
+FTDI-ADBUS7
+Text Label 1300 3550 0    50   ~ 0
+FTDI-ACBUS0
+Text Label 1300 3450 0    50   ~ 0
+FTDI-ACBUS1
+Text Label 1300 3350 0    50   ~ 0
+FTDI-ACBUS2
+Text Label 1300 3250 0    50   ~ 0
+FTDI-ACBUS3
+Wire Wire Line
+	1300 4050 1200 4050
+Wire Wire Line
+	1300 3950 1200 3950
+Wire Wire Line
+	1300 3850 1200 3850
+Wire Wire Line
+	1300 3750 1200 3750
+Wire Wire Line
+	1300 3550 1200 3550
+Wire Wire Line
+	1300 3450 1200 3450
+Wire Wire Line
+	1300 3350 1200 3350
+Wire Wire Line
+	1300 3250 1200 3250
+Text GLabel 1200 4050 0    50   Input ~ 0
+FTDI-ADBUS4
+Text GLabel 1200 3950 0    50   Input ~ 0
+FTDI-ADBUS5
+Text GLabel 1200 3850 0    50   Input ~ 0
+FTDI-ADBUS6
+Text GLabel 1200 3750 0    50   Input ~ 0
+FTDI-ADBUS7
+Text GLabel 1200 3550 0    50   Input ~ 0
+FTDI-ACBUS0
+Text GLabel 1200 3450 0    50   Input ~ 0
+FTDI-ACBUS1
+Text GLabel 1200 3350 0    50   Input ~ 0
+FTDI-ACBUS2
+Text GLabel 1200 3250 0    50   Input ~ 0
+FTDI-ACBUS3
+Text Label 10200 1400 2    50   ~ 0
+FTDI-ADBUS4
+Text Label 10200 1300 2    50   ~ 0
+FTDI-ADBUS5
+Text Label 10200 4500 2    50   ~ 0
+FTDI-ADBUS6
+Text Label 10200 1700 2    50   ~ 0
+FTDI-ADBUS7
+Text Label 10200 1900 2    50   ~ 0
+FTDI-ACBUS0
+Text Label 10200 1800 2    50   ~ 0
+FTDI-ACBUS1
+Text Label 10200 2800 2    50   ~ 0
+FTDI-ACBUS2
+Text Label 10200 2700 2    50   ~ 0
+FTDI-ACBUS3
+Wire Wire Line
+	10200 1400 10300 1400
+Wire Wire Line
+	10200 1300 10300 1300
+Wire Wire Line
+	10200 4500 10300 4500
+Wire Wire Line
+	10200 1700 10300 1700
+Wire Wire Line
+	10200 1900 10300 1900
+Wire Wire Line
+	10200 1800 10300 1800
+Wire Wire Line
+	10200 2800 10300 2800
+Wire Wire Line
+	10200 2700 10300 2700
+Wire Wire Line
+	1400 4950 1200 4950
+Wire Wire Line
+	1400 4850 1200 4850
+Wire Wire Line
+	1400 4750 1200 4750
+Wire Wire Line
+	1400 4650 1200 4650
+Wire Wire Line
+	1400 4550 1200 4550
+Wire Wire Line
+	1400 4450 1200 4450
+Wire Wire Line
+	1400 4350 1200 4350
+Wire Wire Line
+	1400 4250 1200 4250
+Text Label 1400 4950 0    50   ~ 0
+USERLED0
+Text Label 1400 4850 0    50   ~ 0
+USERLED1
+Text Label 1400 4750 0    50   ~ 0
+USERLED2
+Text Label 1400 4650 0    50   ~ 0
+USERLED3
+Text Label 1400 4550 0    50   ~ 0
+USERLED4
+Text Label 1400 4450 0    50   ~ 0
+USERLED5
+Text Label 1400 4350 0    50   ~ 0
+USERLED6
+Text Label 1400 4250 0    50   ~ 0
+USERLED7
+Text GLabel 1200 4950 0    50   Input ~ 0
+USERLED0
+Text GLabel 1200 4850 0    50   Input ~ 0
+USERLED1
+Text GLabel 1200 4750 0    50   Input ~ 0
+USERLED2
+Text GLabel 1200 4650 0    50   Input ~ 0
+USERLED3
+Text GLabel 1200 4550 0    50   Input ~ 0
+USERLED4
+Text GLabel 1200 4450 0    50   Input ~ 0
+USERLED5
+Text GLabel 1200 4350 0    50   Input ~ 0
+USERLED6
+Text GLabel 1200 4250 0    50   Input ~ 0
+USERLED7
+Wire Wire Line
+	7400 3400 7600 3400
+Wire Wire Line
+	7400 3300 7600 3300
+Wire Wire Line
+	7400 3200 7600 3200
+Wire Wire Line
+	7400 3100 7600 3100
+Wire Wire Line
+	7400 2600 7600 2600
+Wire Wire Line
+	7400 2500 7600 2500
+Wire Wire Line
+	7400 2400 7600 2400
+Wire Wire Line
+	7400 2300 7600 2300
+Text Label 7400 3400 2    50   ~ 0
+USERLED0
+Text Label 7400 3300 2    50   ~ 0
+USERLED1
+Text Label 7400 3200 2    50   ~ 0
+USERLED2
+Text Label 7400 3100 2    50   ~ 0
+USERLED3
+Text Label 7400 2600 2    50   ~ 0
+USERLED4
+Text Label 7400 2500 2    50   ~ 0
+USERLED5
+Text Label 7400 2400 2    50   ~ 0
+USERLED6
+Text Label 7400 2300 2    50   ~ 0
+USERLED7
+NoConn ~ 5100 700 
+NoConn ~ 5100 800 
+NoConn ~ 5100 1100
+NoConn ~ 5100 1200
+NoConn ~ 5100 1400
+NoConn ~ 5100 1500
+NoConn ~ 5100 1900
+NoConn ~ 5100 2000
+NoConn ~ 5100 2100
+NoConn ~ 5100 2200
+NoConn ~ 5100 2300
+NoConn ~ 5100 2400
+NoConn ~ 5100 2500
+NoConn ~ 5100 2600
+NoConn ~ 5100 3200
+NoConn ~ 5100 3300
+NoConn ~ 5100 3400
+NoConn ~ 5100 3500
+NoConn ~ 7600 700 
+NoConn ~ 7600 800 
+NoConn ~ 7600 1100
+NoConn ~ 7600 1200
+NoConn ~ 7600 1500
+NoConn ~ 7600 1600
+NoConn ~ 7600 1800
+NoConn ~ 7600 1900
+NoConn ~ 7600 2200
+NoConn ~ 7600 2100
+NoConn ~ 7600 2000
+NoConn ~ 7600 2700
+NoConn ~ 7600 2800
+NoConn ~ 7600 2900
+NoConn ~ 7600 3000
+NoConn ~ 7600 3500
+NoConn ~ 7600 3600
+NoConn ~ 7600 3700
+NoConn ~ 7600 3800
+NoConn ~ 7600 3900
+NoConn ~ 7600 4000
+NoConn ~ 7600 4100
+NoConn ~ 7600 4200
+NoConn ~ 7600 4300
+NoConn ~ 7600 4400
+NoConn ~ 7600 4600
+NoConn ~ 7600 4700
+NoConn ~ 7600 4800
+NoConn ~ 7600 4900
+NoConn ~ 10300 4700
+NoConn ~ 10300 4600
+NoConn ~ 10300 4400
+NoConn ~ 10300 4000
+NoConn ~ 10300 3900
+NoConn ~ 10300 3800
+NoConn ~ 10300 3300
+NoConn ~ 10300 3200
+NoConn ~ 10300 3100
+NoConn ~ 10300 3000
+NoConn ~ 10300 2900
+NoConn ~ 10300 2600
+NoConn ~ 10300 2500
+NoConn ~ 10300 2400
+NoConn ~ 10300 2300
+NoConn ~ 10300 2200
+NoConn ~ 10300 2100
+NoConn ~ 10300 2000
+NoConn ~ 10300 1600
+NoConn ~ 10300 1500
+NoConn ~ 10300 1200
+NoConn ~ 10300 1100
+NoConn ~ 10300 1000
+NoConn ~ 10300 900 
+NoConn ~ 10300 800 
+NoConn ~ 10300 700 
+$EndSCHEMATC

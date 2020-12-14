@@ -356,4 +356,14 @@ F 3 "" H 8900 2550 50  0001 C CNN
 	1    8900 2550
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	800  800  2800 800 
+Wire Notes Line
+	2800 800  2800 2300
+Wire Notes Line
+	2800 2300 800  2300
+Wire Notes Line
+	800  2300 800  800 
+Text Notes 2000 800  2    79   ~ 0
+Sheet IO
 $EndSCHEMATC
