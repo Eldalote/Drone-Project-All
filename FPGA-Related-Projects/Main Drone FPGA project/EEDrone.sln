@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{57791927-2CD2-4346-8A27-A2725836BD19}") = "EEDrone", "EEDrone.v3sproj", "{7C24BDA3-6A9D-4909-950E-52ECECFAE194}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Full Compilation|Default = Full Compilation|Default
+		Syntax Check|Default = Syntax Check|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C24BDA3-6A9D-4909-950E-52ECECFAE194}.Full Compilation|Default.ActiveCfg = Full Compilation
+		{7C24BDA3-6A9D-4909-950E-52ECECFAE194}.Full Compilation|Default.Build.0 = Full Compilation
+		{7C24BDA3-6A9D-4909-950E-52ECECFAE194}.Syntax Check|Default.ActiveCfg = Syntax Check
+		{7C24BDA3-6A9D-4909-950E-52ECECFAE194}.Syntax Check|Default.Build.0 = Syntax Check
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B5B2913-C957-4813-BAEC-218FE0174B58}
+	EndGlobalSection
+EndGlobal

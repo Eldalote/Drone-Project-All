@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 4 8
 Title ""
 Date ""
 Rev ""
@@ -513,9 +513,8 @@ F 0 "C413" H 7458 3954 50  0000 R CNN
 F 1 "0.3pF" H 7458 4045 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7588 3850 50  0001 C CNN
 F 3 "~" H 7550 4000 50  0001 C CNN
-F 4 "" H 7550 4000 50  0001 C CNN "LCSC"
-F 5 "712-1300-1-ND" H 7550 4000 50  0001 C CNN "DigiKey"
-F 6 "609-251R14S0R3AV4T" H 7550 4000 50  0001 C CNN "Mouser"
+F 4 "712-1300-1-ND" H 7550 4000 50  0001 C CNN "DigiKey"
+F 5 "609-251R14S0R3AV4T" H 7550 4000 50  0001 C CNN "Mouser"
 	1    7550 4000
 	-1   0    0    1   
 $EndComp
@@ -550,28 +549,28 @@ VDD_PA
 Text Label 5050 4000 0    50   ~ 0
 VDD_PA
 Wire Wire Line
-	2200 3400 1850 3400
+	2200 3400 2100 3400
 Wire Wire Line
-	2200 3500 1850 3500
+	2200 3500 2100 3500
 Wire Wire Line
-	2200 3600 1850 3600
+	2200 3600 2100 3600
 Wire Wire Line
-	2200 3700 1850 3700
+	2200 3700 2100 3700
 Wire Wire Line
-	2200 3900 1850 3900
+	2200 3900 2100 3900
 Wire Wire Line
-	2200 4000 1850 4000
-Text Label 1900 3400 0    50   ~ 0
+	2200 4000 2100 4000
+Text Label 2100 3400 2    50   ~ 0
 MOSI
-Text Label 1900 3500 0    50   ~ 0
+Text Label 2100 3500 2    50   ~ 0
 MISO
-Text Label 1900 3600 0    50   ~ 0
+Text Label 2100 3600 2    50   ~ 0
 SCLK
-Text Label 1900 3700 0    50   ~ 0
+Text Label 2100 3700 2    50   ~ 0
 ~CS
-Text Label 1900 3900 0    50   ~ 0
+Text Label 2100 3900 2    50   ~ 0
 CE
-Text Label 1900 4000 0    50   ~ 0
+Text Label 2100 4000 2    50   ~ 0
 IRQ
 Wire Wire Line
 	5250 4350 5300 4350

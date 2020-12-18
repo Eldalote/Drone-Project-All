@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Syntax Check</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace>Work</RootNamespace>
+    <AssemblyName>EEDrone</AssemblyName>
+    <ProjectGuid>{57791927-2CD2-4346-8A27-A2725836BD19}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <V3S-Project-Type>V3S Project</V3S-Project-Type>
+    <Name>EEDrone</Name>
+    <ProjectFolder>D:\Engineering\Projects\EEDrone</ProjectFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Syntax Check' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Full Compilation' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TopLevelEntity>
+    </TopLevelEntity>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Drone.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+    </Content>
+    <Content Include="Remote.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+    </Content>
+    <Content Include="Source_files\ADC128S022_controller.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files</Folder>
+    </Content>
+    <Content Include="Source_files\BNO055_master.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files</Folder>
+    </Content>
+    <Content Include="Source_files\Com_bus_output.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files</Folder>
+    </Content>
+    <Content Include="Source_files\Com_bus_read_mux.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files</Folder>
+    </Content>
+    <Content Include="Source_files\Drone_Radio_Controller.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files</Folder>
+    </Content>
+    <Content Include="Source_files\DShot_wrapper.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files</Folder>
+    </Content>
+    <Content Include="Source_files\ICM20948_Master.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files</Folder>
+    </Content>
+    <Content Include="Source_files\LED_Controller.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files</Folder>
+    </Content>
+    <Content Include="Source_files\nRF24L01Plus_Controller.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files</Folder>
+    </Content>
+    <Content Include="Source_files\Remote_Radio_Controller.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files</Folder>
+    </Content>
+    <Content Include="Source_files\SPI_Data_logger.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+    </Content>
+    <Content Include="Source_files\SPI_snooper.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+    </Content>
+    <Content Include="Source_files\SPI_tester.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+    </Content>
+    <Content Include="Source_files\Sub files\Advanced_SPI_Master.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files\Sub files</Folder>
+    </Content>
+    <Content Include="Source_files\Sub files\Clocking subs\ClockEnableGenerator.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files\Sub files\Clocking subs</Folder>
+    </Content>
+    <Content Include="Source_files\Sub files\Clocking subs\Clock_Enable_generator_frequency.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+    </Content>
+    <Content Include="Source_files\Sub files\Clocking subs\Clock_Enable_generator_Period.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+    </Content>
+    <Content Include="Source_files\Sub files\Clocking subs\EdgeToClockDomain.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files\Sub files\Clocking subs</Folder>
+    </Content>
+    <Content Include="Source_files\Sub files\Dshot_module.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files\Sub files</Folder>
+    </Content>
+    <Content Include="Source_files\Sub files\Generic_I2C_Master.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files\Sub files</Folder>
+    </Content>
+    <Content Include="Source_files\Sub files\Generic_SPI_Master.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files\Sub files</Folder>
+    </Content>
+    <Content Include="Source_files\Sub files\IMU subs\Acc_angulator.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files\Sub files\IMU subs</Folder>
+    </Content>
+    <Content Include="Source_files\Sub files\IMU subs\BNO_angulator.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files\Sub files\IMU subs</Folder>
+    </Content>
+    <Content Include="Source_files\Sub files\IMU subs\Compound_filter.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files\Sub files\IMU subs</Folder>
+    </Content>
+    <Content Include="Source_files\Sub files\IMU subs\Gyro_angulator.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files\Sub files\IMU subs</Folder>
+    </Content>
+    <Content Include="Source_files\Sub files\IMU subs\IMU_compound_filter.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files\Sub files\IMU subs</Folder>
+    </Content>
+    <Content Include="Source_files\Sub files\IMU subs\sim\tb_Acc_angulator.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files\Sub files\IMU subs\sim</Folder>
+    </Content>
+    <Content Include="Source_files\Sub files\IMU subs\sim\tb_BNO_angulator.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files\Sub files\IMU subs\sim</Folder>
+    </Content>
+    <Content Include="Source_files\Sub files\IMU subs\sim\tb_Compound_filter.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files\Sub files\IMU subs\sim</Folder>
+    </Content>
+    <Content Include="Source_files\Sub files\IMU subs\sim\tb_Gyro_angulator.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files\Sub files\IMU subs\sim</Folder>
+    </Content>
+    <Content Include="Source_files\Sub files\Inferred_RAM.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+    </Content>
+    <Content Include="Source_files\Sub files\Simple_SPI_Master.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files\Sub files</Folder>
+    </Content>
+    <Content Include="Source_files\System_controls_and_flags.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files</Folder>
+    </Content>
+    <Content Include="Source_files\System_Reset_creator.vhd">
+      <SubType>Content</SubType>
+      <LibraryName>work</LibraryName>
+      <ContentTypeProperty>Vhdl</ContentTypeProperty>
+      <NamingCheck>True</NamingCheck>
+      <ParsingOptions>FullParse</ParsingOptions>
+      <NotificationLevel>All</NotificationLevel>
+      <Folder>D:\Engineering\Projects\EEDrone\Source_files</Folder>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Source_files" />
+    <Folder Include="Source_files\Sub files" />
+    <Folder Include="Source_files\Sub files\Clocking subs" />
+    <Folder Include="Source_files\Sub files\IMU subs" />
+    <Folder Include="Source_files\Sub files\IMU subs\sim" />
+    <Folder Include="Source_files\" />
+    <Folder Include="Source_files\Sub files" />
+  </ItemGroup>
+  <!-- insertExternalFiles !-->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
