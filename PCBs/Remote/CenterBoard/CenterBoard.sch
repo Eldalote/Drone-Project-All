@@ -1484,4 +1484,48 @@ U 5FDBCA6C
 F0 "LPC51 Pinning" 50
 F1 "LPC51pinning.sch" 50
 $EndSheet
+$Comp
+L Mechanical:MountingHole H101
+U 1 1 5FE46077
+P 8100 6100
+F 0 "H101" H 8200 6146 50  0000 L CNN
+F 1 "MountingHole" H 8200 6055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380" H 8100 6100 50  0001 C CNN
+F 3 "~" H 8100 6100 50  0001 C CNN
+	1    8100 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H102
+U 1 1 5FE4669B
+P 8100 6300
+F 0 "H102" H 8200 6346 50  0000 L CNN
+F 1 "MountingHole" H 8200 6255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380" H 8100 6300 50  0001 C CNN
+F 3 "~" H 8100 6300 50  0001 C CNN
+	1    8100 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H103
+U 1 1 5FE4680B
+P 8950 6100
+F 0 "H103" H 9050 6146 50  0000 L CNN
+F 1 "MountingHole" H 9050 6055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380" H 8950 6100 50  0001 C CNN
+F 3 "~" H 8950 6100 50  0001 C CNN
+	1    8950 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H104
+U 1 1 5FE46A60
+P 8950 6300
+F 0 "H104" H 9050 6346 50  0000 L CNN
+F 1 "MountingHole" H 9050 6255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380" H 8950 6300 50  0001 C CNN
+F 3 "~" H 8950 6300 50  0001 C CNN
+	1    8950 6300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

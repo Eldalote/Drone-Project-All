@@ -1417,5 +1417,5 @@ Wire Notes Line
 Text Notes 1650 800  2    79   ~ 0
 Sheet IO
 Text Notes 5100 750  2    50   ~ 0
-Everything on this sheet place on bottom of PCB
+Everything on this sheet to be placed on the bottom of the PCB
 $EndSCHEMATC

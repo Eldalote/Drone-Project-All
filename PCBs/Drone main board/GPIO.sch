@@ -812,4 +812,14 @@ Text GLabel 9000 6200 2    50   Input ~ 0
 GPIO2-14
 Text GLabel 9000 6300 2    50   Input ~ 0
 GPIO2-15
+Wire Notes Line
+	8400 2750 10750 2750
+Wire Notes Line
+	10750 2750 10750 6400
+Wire Notes Line
+	10750 6400 8400 6400
+Wire Notes Line
+	8400 6400 8400 2750
+Text Notes 9450 2850 0    50   ~ 0
+Sheet IO
 $EndSCHEMATC

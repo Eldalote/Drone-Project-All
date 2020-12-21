@@ -478,70 +478,70 @@ USERLED6
 Text Label 2400 6400 0    50   ~ 0
 USERLED7
 Wire Wire Line
-	10350 3500 10150 3500
+	10150 4350 9950 4350
 Wire Wire Line
-	10350 3600 10150 3600
+	10150 4450 9950 4450
 Wire Wire Line
-	10350 3700 10150 3700
+	10150 4550 9950 4550
 Wire Wire Line
-	10350 3800 10150 3800
-Text Label 10150 3500 2    50   ~ 0
+	10150 4650 9950 4650
+Text Label 9950 4350 2    50   ~ 0
 ESC4
-Text Label 10150 3600 2    50   ~ 0
+Text Label 9950 4450 2    50   ~ 0
 ESC3
-Text Label 10150 3700 2    50   ~ 0
+Text Label 9950 4550 2    50   ~ 0
 ESC2
-Text Label 10150 3800 2    50   ~ 0
+Text Label 9950 4650 2    50   ~ 0
 ESC1
-Text Label 9850 3100 2    50   ~ 0
+Text Label 9950 4150 2    50   ~ 0
 ESC-CRT
-Text Label 10150 3900 2    50   ~ 0
+Text Label 9950 4750 2    50   ~ 0
 ESC-TX
 Wire Wire Line
-	10050 3100 9850 3100
+	10150 4150 9950 4150
 Wire Wire Line
-	10350 3900 10150 3900
+	10150 4750 9950 4750
 Wire Wire Line
-	10150 4100 10350 4100
+	9950 4950 10150 4950
 Wire Wire Line
-	10150 4200 10350 4200
+	9950 5050 10150 5050
 Wire Wire Line
-	10150 4300 10350 4300
+	9950 5150 10150 5150
 Wire Wire Line
-	10150 4400 10350 4400
+	9950 5250 10150 5250
 Wire Wire Line
-	10150 4500 10350 4500
+	9950 5350 10150 5350
 Wire Wire Line
-	10150 4600 10350 4600
+	9950 5450 10150 5450
 Wire Wire Line
-	10150 4700 10350 4700
+	9950 5550 10150 5550
 Wire Wire Line
-	10150 4800 10350 4800
-Text Label 10150 4100 2    50   ~ 0
+	9950 5650 10150 5650
+Text Label 9950 4950 2    50   ~ 0
 USERLED0
-Text Label 10150 4200 2    50   ~ 0
+Text Label 9950 5050 2    50   ~ 0
 USERLED1
-Text Label 10150 4300 2    50   ~ 0
+Text Label 9950 5150 2    50   ~ 0
 USERLED2
-Text Label 10150 4400 2    50   ~ 0
+Text Label 9950 5250 2    50   ~ 0
 USERLED3
-Text Label 10150 4500 2    50   ~ 0
+Text Label 9950 5350 2    50   ~ 0
 USERLED4
-Text Label 10150 4600 2    50   ~ 0
+Text Label 9950 5450 2    50   ~ 0
 USERLED5
-Text Label 10150 4700 2    50   ~ 0
+Text Label 9950 5550 2    50   ~ 0
 USERLED6
-Text Label 10150 4800 2    50   ~ 0
+Text Label 9950 5650 2    50   ~ 0
 USERLED7
-Text GLabel 10350 3500 2    50   Input ~ 0
+Text GLabel 10150 4350 2    50   Input ~ 0
 ESC4
-Text GLabel 10350 3600 2    50   Input ~ 0
+Text GLabel 10150 4450 2    50   Input ~ 0
 ESC3
-Text GLabel 10350 3700 2    50   Input ~ 0
+Text GLabel 10150 4550 2    50   Input ~ 0
 ESC2
-Text GLabel 10350 3800 2    50   Input ~ 0
+Text GLabel 10150 4650 2    50   Input ~ 0
 ESC1
-Text GLabel 10350 3900 2    50   Input ~ 0
+Text GLabel 10150 4750 2    50   Input ~ 0
 ESC-TX
 $Comp
 L Device:R R915
@@ -617,23 +617,23 @@ Wire Wire Line
 Connection ~ 10450 2850
 Wire Wire Line
 	10450 2850 10400 2850
-Text GLabel 10350 4100 2    50   Input ~ 0
+Text GLabel 10150 4950 2    50   Input ~ 0
 USERLED0
-Text GLabel 10350 4200 2    50   Input ~ 0
+Text GLabel 10150 5050 2    50   Input ~ 0
 USERLED1
-Text GLabel 10350 4300 2    50   Input ~ 0
+Text GLabel 10150 5150 2    50   Input ~ 0
 USERLED2
-Text GLabel 10350 4400 2    50   Input ~ 0
+Text GLabel 10150 5250 2    50   Input ~ 0
 USERLED3
-Text GLabel 10350 4500 2    50   Input ~ 0
+Text GLabel 10150 5350 2    50   Input ~ 0
 USERLED4
-Text GLabel 10350 4600 2    50   Input ~ 0
+Text GLabel 10150 5450 2    50   Input ~ 0
 USERLED5
-Text GLabel 10350 4700 2    50   Input ~ 0
+Text GLabel 10150 5550 2    50   Input ~ 0
 USERLED6
-Text GLabel 10350 4800 2    50   Input ~ 0
+Text GLabel 10150 5650 2    50   Input ~ 0
 USERLED7
-Text GLabel 10050 3100 2    50   Input ~ 0
+Text GLabel 10150 4150 2    50   Input ~ 0
 ADC_CH1
 $Comp
 L power:PWR_FLAG #FLG0103
@@ -661,4 +661,14 @@ F 3 "~" H 9300 1500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 9300 1500
+Wire Notes Line
+	10800 3950 9400 3950
+Wire Notes Line
+	9400 3950 9400 5850
+Wire Notes Line
+	9400 5850 10800 5850
+Wire Notes Line
+	10800 3950 10800 5850
+Text Notes 10000 3950 0    50   ~ 0
+Sheet IO
 $EndSCHEMATC
