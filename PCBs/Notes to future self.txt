@@ -1,0 +1,3 @@
+LPC51u68 is difficult to aquire.
+LPC5114J256BD64 is slightly more expensive, but available, and more powerfull. Also, it's pin compatible. Use this?
+
