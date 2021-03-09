@@ -34,8 +34,7 @@ F 0 "JP201" H 8100 5147 50  0000 C CNN
 F 1 "Jumper_NC_Dual" H 8100 5238 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8100 5000 50  0001 C CNN
 F 3 "~" H 8100 5000 50  0001 C CNN
-F 4 "535-ME-100 " H 8100 5000 50  0001 C CNN "Mouser"
-F 5 "A860AR-ND" H 8100 5000 50  0001 C CNN "DigiKey"
+F 4 " ME-100 " H 8100 5000 50  0001 C CNN "MfNr"
 	1    8100 5000
 	-1   0    0    1   
 $EndComp
@@ -47,8 +46,7 @@ F 0 "J201" H 7100 5150 50  0000 C CNN
 F 1 "PJ-102A" H 7150 5100 50  0000 C CNN
 F 2 "digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A" H 7550 5200 60  0001 L CNN
 F 3 "https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf" H 7550 5300 60  0001 L CNN
-F 4 "490-PJ-102A" H 7350 5000 50  0001 C CNN "Mouser"
-F 5 "CP-102A-ND" H 7550 5400 60  0001 L CNN "DigiKey"
+F 4 "PJ-102A" H 7350 5000 50  0001 C CNN "MfNr"
 	1    7350 5000
 	1    0    0    -1  
 $EndComp
