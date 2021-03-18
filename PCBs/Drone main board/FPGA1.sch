@@ -23,6 +23,7 @@ F 2 "SamacSys_Parts:BGA484C100P22X22_2300X2300X200" H 6350 -5320 35  0001 L CNN
 F 3 "" H 5300 650 50  0001 C CNN
 F 4 "TRUE" H 6350 -5365 35  0001 L CNN "SPLIT_INST"
 F 5 "(S1+S2+S3+S4+S5+S6+S7+S8+S9+S10+S11+S12+S13)" H 6350 -5410 35  0001 L CNN "SWAP_INFO"
+F 6 "10CL040Y" H 5300 650 50  0001 C CNN "MfNr"
 	2    5300 650 
 	1    0    0    -1  
 $EndComp
@@ -36,6 +37,7 @@ F 2 "SamacSys_Parts:BGA484C100P22X22_2300X2300X200" H 8850 -5320 35  0001 L CNN
 F 3 "" H 7800 650 50  0001 C CNN
 F 4 "TRUE" H 8850 -5365 35  0001 L CNN "SPLIT_INST"
 F 5 "(S1+S2+S3+S4+S5+S6+S7+S8+S9+S10+S11+S12+S13)" H 8850 -5410 35  0001 L CNN "SWAP_INFO"
+F 6 "10CL040Y" H 7800 650 50  0001 C CNN "MfNr"
 	3    7800 650 
 	1    0    0    -1  
 $EndComp
@@ -49,6 +51,7 @@ F 2 "SamacSys_Parts:BGA484C100P22X22_2300X2300X200" H 11550 -5320 35  0001 L CNN
 F 3 "" H 10500 650 50  0001 C CNN
 F 4 "TRUE" H 11550 -5365 35  0001 L CNN "SPLIT_INST"
 F 5 "(S1+S2+S3+S4+S5+S6+S7+S8+S9+S10+S11+S12+S13)" H 11550 -5410 35  0001 L CNN "SWAP_INFO"
+F 6 "10CL040Y" H 10500 650 50  0001 C CNN "MfNr"
 	4    10500 650 
 	1    0    0    -1  
 $EndComp
@@ -92,66 +95,66 @@ Text Label 5000 900  2    50   ~ 0
 BNO_NRESET
 Text Label 5000 1000 2    50   ~ 0
 BNO_INT
-Text Label 4950 3000 2    50   ~ 0
+Text Label 5000 3000 2    50   ~ 0
 User_flash_CSn
-Text Label 4950 1700 2    50   ~ 0
+Text Label 5000 1700 2    50   ~ 0
 User_flash_IO0
-Text Label 4950 2900 2    50   ~ 0
+Text Label 5000 2900 2    50   ~ 0
 User_flash_IO1
-Text Label 4950 2800 2    50   ~ 0
+Text Label 5000 2800 2    50   ~ 0
 User_flash_IO2
-Text Label 4950 2700 2    50   ~ 0
+Text Label 5000 2700 2    50   ~ 0
 User_flash_IO3
-Text Label 4950 1800 2    50   ~ 0
+Text Label 5000 1800 2    50   ~ 0
 User_flash_CLK
 Wire Wire Line
-	5100 1800 4950 1800
+	5100 1800 5000 1800
 Wire Wire Line
-	5100 3000 4950 3000
+	5100 3000 5000 3000
 Wire Wire Line
-	5100 1700 4950 1700
+	5100 1700 5000 1700
 Wire Wire Line
-	5100 2900 4950 2900
+	5100 2900 5000 2900
 Wire Wire Line
-	5100 2800 4950 2800
+	5100 2800 5000 2800
 Wire Wire Line
-	5100 2700 4950 2700
-Text Label 1350 1650 0    50   ~ 0
+	5100 2700 5000 2700
+Text Label 1300 1350 0    50   ~ 0
 User_flash_CSn
-Text Label 1350 1550 0    50   ~ 0
+Text Label 1300 1450 0    50   ~ 0
 User_flash_IO0
-Text Label 1350 1450 0    50   ~ 0
+Text Label 1300 1550 0    50   ~ 0
 User_flash_IO1
-Text Label 1350 1350 0    50   ~ 0
+Text Label 1300 1650 0    50   ~ 0
 User_flash_IO2
-Text Label 1350 1250 0    50   ~ 0
+Text Label 1300 1750 0    50   ~ 0
 User_flash_IO3
-Text Label 1350 1750 0    50   ~ 0
+Text Label 1300 1250 0    50   ~ 0
 User_flash_CLK
-Text GLabel 1200 1750 0    50   Input ~ 0
-User_flash_CLK
-Text GLabel 1200 1650 0    50   Input ~ 0
-User_flash_CSn
-Text GLabel 1200 1550 0    50   Input ~ 0
-User_flash_IO0
-Text GLabel 1200 1450 0    50   Input ~ 0
-User_flash_IO1
-Text GLabel 1200 1350 0    50   Input ~ 0
-User_flash_IO2
 Text GLabel 1200 1250 0    50   Input ~ 0
+User_flash_CLK
+Text GLabel 1200 1350 0    50   Input ~ 0
+User_flash_CSn
+Text GLabel 1200 1450 0    50   Input ~ 0
+User_flash_IO0
+Text GLabel 1200 1550 0    50   Input ~ 0
+User_flash_IO1
+Text GLabel 1200 1650 0    50   Input ~ 0
+User_flash_IO2
+Text GLabel 1200 1750 0    50   Input ~ 0
 User_flash_IO3
 Wire Wire Line
-	1200 1750 1350 1750
+	1200 1250 1300 1250
 Wire Wire Line
-	1200 1650 1350 1650
+	1200 1350 1300 1350
 Wire Wire Line
-	1200 1550 1350 1550
+	1200 1450 1300 1450
 Wire Wire Line
-	1200 1450 1350 1450
+	1200 1550 1300 1550
 Wire Wire Line
-	1200 1350 1350 1350
+	1200 1650 1300 1650
 Wire Wire Line
-	1200 1250 1350 1250
+	1200 1750 1300 1750
 Text GLabel 1200 2350 0    50   Input ~ 0
 ESC4
 Text GLabel 1200 2250 0    50   Input ~ 0
@@ -163,25 +166,25 @@ ESC1
 Text GLabel 1200 1950 0    50   Input ~ 0
 ESC-TX
 Wire Wire Line
-	1200 1950 1400 1950
-Text Label 1400 1950 0    50   ~ 0
+	1200 1950 1300 1950
+Text Label 1300 1950 0    50   ~ 0
 ESC-TX
-Text Label 1400 2050 0    50   ~ 0
+Text Label 1300 2050 0    50   ~ 0
 ESC1
-Text Label 1400 2150 0    50   ~ 0
+Text Label 1300 2150 0    50   ~ 0
 ESC2
-Text Label 1400 2250 0    50   ~ 0
+Text Label 1300 2250 0    50   ~ 0
 ESC3
-Text Label 1400 2350 0    50   ~ 0
+Text Label 1300 2350 0    50   ~ 0
 ESC4
 Wire Wire Line
-	1200 2050 1400 2050
+	1200 2050 1300 2050
 Wire Wire Line
-	1200 2150 1400 2150
+	1200 2150 1300 2150
 Wire Wire Line
-	1200 2250 1400 2250
+	1200 2250 1300 2250
 Wire Wire Line
-	1200 2350 1400 2350
+	1200 2350 1300 2350
 Wire Wire Line
 	7600 1700 7400 1700
 Text Label 7400 1700 2    50   ~ 0
@@ -262,53 +265,53 @@ Text Label 10200 4100 2    50   ~ 0
 ICM_INT
 Text Label 10200 4200 2    50   ~ 0
 ICM_FSYNC
-Text Label 1300 4050 0    50   ~ 0
-FTDI-ADBUS4
-Text Label 1300 3950 0    50   ~ 0
-FTDI-ADBUS5
-Text Label 1300 3850 0    50   ~ 0
-FTDI-ADBUS6
 Text Label 1300 3750 0    50   ~ 0
+FTDI-ADBUS4
+Text Label 1300 3850 0    50   ~ 0
+FTDI-ADBUS5
+Text Label 1300 3950 0    50   ~ 0
+FTDI-ADBUS6
+Text Label 1300 4050 0    50   ~ 0
 FTDI-ADBUS7
-Text Label 1300 3550 0    50   ~ 0
-FTDI-ACBUS0
-Text Label 1300 3450 0    50   ~ 0
-FTDI-ACBUS1
-Text Label 1300 3350 0    50   ~ 0
-FTDI-ACBUS2
 Text Label 1300 3250 0    50   ~ 0
+FTDI-ACBUS0
+Text Label 1300 3350 0    50   ~ 0
+FTDI-ACBUS1
+Text Label 1300 3450 0    50   ~ 0
+FTDI-ACBUS2
+Text Label 1300 3550 0    50   ~ 0
 FTDI-ACBUS3
-Wire Wire Line
-	1300 4050 1200 4050
-Wire Wire Line
-	1300 3950 1200 3950
-Wire Wire Line
-	1300 3850 1200 3850
 Wire Wire Line
 	1300 3750 1200 3750
 Wire Wire Line
-	1300 3550 1200 3550
+	1300 3850 1200 3850
 Wire Wire Line
-	1300 3450 1200 3450
+	1300 3950 1200 3950
+Wire Wire Line
+	1300 4050 1200 4050
+Wire Wire Line
+	1300 3250 1200 3250
 Wire Wire Line
 	1300 3350 1200 3350
 Wire Wire Line
-	1300 3250 1200 3250
-Text GLabel 1200 4050 0    50   Input ~ 0
-FTDI-ADBUS4
-Text GLabel 1200 3950 0    50   Input ~ 0
-FTDI-ADBUS5
-Text GLabel 1200 3850 0    50   Input ~ 0
-FTDI-ADBUS6
+	1300 3450 1200 3450
+Wire Wire Line
+	1300 3550 1200 3550
 Text GLabel 1200 3750 0    50   Input ~ 0
+FTDI-ADBUS4
+Text GLabel 1200 3850 0    50   Input ~ 0
+FTDI-ADBUS5
+Text GLabel 1200 3950 0    50   Input ~ 0
+FTDI-ADBUS6
+Text GLabel 1200 4050 0    50   Input ~ 0
 FTDI-ADBUS7
-Text GLabel 1200 3550 0    50   Input ~ 0
-FTDI-ACBUS0
-Text GLabel 1200 3450 0    50   Input ~ 0
-FTDI-ACBUS1
-Text GLabel 1200 3350 0    50   Input ~ 0
-FTDI-ACBUS2
 Text GLabel 1200 3250 0    50   Input ~ 0
+FTDI-ACBUS0
+Text GLabel 1200 3350 0    50   Input ~ 0
+FTDI-ACBUS1
+Text GLabel 1200 3450 0    50   Input ~ 0
+FTDI-ACBUS2
+Text GLabel 1200 3550 0    50   Input ~ 0
 FTDI-ACBUS3
 Text Label 10200 1400 2    50   ~ 0
 FTDI-ADBUS4
@@ -343,52 +346,52 @@ Wire Wire Line
 Wire Wire Line
 	10200 2700 10300 2700
 Wire Wire Line
-	1400 4950 1200 4950
+	1300 4250 1200 4250
 Wire Wire Line
-	1400 4850 1200 4850
+	1300 4350 1200 4350
 Wire Wire Line
-	1400 4750 1200 4750
+	1300 4450 1200 4450
 Wire Wire Line
-	1400 4650 1200 4650
+	1300 4550 1200 4550
 Wire Wire Line
-	1400 4550 1200 4550
+	1300 4650 1200 4650
 Wire Wire Line
-	1400 4450 1200 4450
+	1300 4750 1200 4750
 Wire Wire Line
-	1400 4350 1200 4350
+	1300 4850 1200 4850
 Wire Wire Line
-	1400 4250 1200 4250
-Text Label 1400 4950 0    50   ~ 0
+	1300 4950 1200 4950
+Text Label 1300 4250 0    50   ~ 0
 USERLED0
-Text Label 1400 4850 0    50   ~ 0
+Text Label 1300 4350 0    50   ~ 0
 USERLED1
-Text Label 1400 4750 0    50   ~ 0
+Text Label 1300 4450 0    50   ~ 0
 USERLED2
-Text Label 1400 4650 0    50   ~ 0
+Text Label 1300 4550 0    50   ~ 0
 USERLED3
-Text Label 1400 4550 0    50   ~ 0
+Text Label 1300 4650 0    50   ~ 0
 USERLED4
-Text Label 1400 4450 0    50   ~ 0
+Text Label 1300 4750 0    50   ~ 0
 USERLED5
-Text Label 1400 4350 0    50   ~ 0
+Text Label 1300 4850 0    50   ~ 0
 USERLED6
-Text Label 1400 4250 0    50   ~ 0
+Text Label 1300 4950 0    50   ~ 0
 USERLED7
-Text GLabel 1200 4950 0    50   Input ~ 0
-USERLED0
-Text GLabel 1200 4850 0    50   Input ~ 0
-USERLED1
-Text GLabel 1200 4750 0    50   Input ~ 0
-USERLED2
-Text GLabel 1200 4650 0    50   Input ~ 0
-USERLED3
-Text GLabel 1200 4550 0    50   Input ~ 0
-USERLED4
-Text GLabel 1200 4450 0    50   Input ~ 0
-USERLED5
-Text GLabel 1200 4350 0    50   Input ~ 0
-USERLED6
 Text GLabel 1200 4250 0    50   Input ~ 0
+USERLED0
+Text GLabel 1200 4350 0    50   Input ~ 0
+USERLED1
+Text GLabel 1200 4450 0    50   Input ~ 0
+USERLED2
+Text GLabel 1200 4550 0    50   Input ~ 0
+USERLED3
+Text GLabel 1200 4650 0    50   Input ~ 0
+USERLED4
+Text GLabel 1200 4750 0    50   Input ~ 0
+USERLED5
+Text GLabel 1200 4850 0    50   Input ~ 0
+USERLED6
+Text GLabel 1200 4950 0    50   Input ~ 0
 USERLED7
 Wire Wire Line
 	7400 3400 7600 3400

@@ -23,6 +23,7 @@ F 2 "SamacSys_Parts:BGA484C100P22X22_2300X2300X200" H 6400 -5370 35  0001 L CNN
 F 3 "" H 5350 600 50  0001 C CNN
 F 4 "TRUE" H 6400 -5415 35  0001 L CNN "SPLIT_INST"
 F 5 "(S1+S2+S3+S4+S5+S6+S7+S8+S9+S10+S11+S12+S13)" H 6400 -5460 35  0001 L CNN "SWAP_INFO"
+F 6 "10CL040Y" H 5350 600 50  0001 C CNN "MfNr"
 	5    5350 600 
 	1    0    0    -1  
 $EndComp
@@ -36,6 +37,7 @@ F 2 "SamacSys_Parts:BGA484C100P22X22_2300X2300X200" H 9300 -5370 35  0001 L CNN
 F 3 "" H 8250 600 50  0001 C CNN
 F 4 "TRUE" H 9300 -5415 35  0001 L CNN "SPLIT_INST"
 F 5 "(S1+S2+S3+S4+S5+S6+S7+S8+S9+S10+S11+S12+S13)" H 9300 -5460 35  0001 L CNN "SWAP_INFO"
+F 6 "10CL040Y" H 8250 600 50  0001 C CNN "MfNr"
 	6    8250 600 
 	1    0    0    -1  
 $EndComp
@@ -49,6 +51,7 @@ F 2 "SamacSys_Parts:BGA484C100P22X22_2300X2300X200" H 11550 -5320 35  0001 L CNN
 F 3 "" H 10500 650 50  0001 C CNN
 F 4 "TRUE" H 11550 -5365 35  0001 L CNN "SPLIT_INST"
 F 5 "(S1+S2+S3+S4+S5+S6+S7+S8+S9+S10+S11+S12+S13)" H 11550 -5410 35  0001 L CNN "SWAP_INFO"
+F 6 "10CL040Y" H 10500 650 50  0001 C CNN "MfNr"
 	7    10500 650 
 	1    0    0    -1  
 $EndComp
@@ -83,100 +86,100 @@ nRF_CSn
 Text Label 10100 2900 2    50   ~ 0
 nRF_SCLK
 Wire Wire Line
-	1550 2550 1650 2550
+	1500 1050 1600 1050
 Wire Wire Line
-	1550 2350 1650 2350
+	1500 1250 1600 1250
 Wire Wire Line
-	1550 2150 1650 2150
+	1500 1450 1600 1450
 Wire Wire Line
-	1550 1950 1650 1950
+	1500 1650 1600 1650
 Wire Wire Line
-	1550 1750 1650 1750
+	1500 1850 1600 1850
 Wire Wire Line
-	1550 1550 1650 1550
+	1500 2050 1600 2050
 Wire Wire Line
-	1550 1350 1650 1350
+	1500 2250 1600 2250
 Wire Wire Line
-	1550 1150 1650 1150
-Text Label 1650 2550 0    50   ~ 0
+	1500 2450 1600 2450
+Text Label 1600 1050 0    50   ~ 0
 GPIO1-0
-Text Label 1650 2350 0    50   ~ 0
+Text Label 1600 1250 0    50   ~ 0
 GPIO1-2
-Text Label 1650 2150 0    50   ~ 0
+Text Label 1600 1450 0    50   ~ 0
 GPIO1-4
-Text Label 1650 1950 0    50   ~ 0
+Text Label 1600 1650 0    50   ~ 0
 GPIO1-6
-Text Label 1650 1750 0    50   ~ 0
+Text Label 1600 1850 0    50   ~ 0
 GPIO1-8
-Text Label 1650 1550 0    50   ~ 0
+Text Label 1600 2050 0    50   ~ 0
 GPIO1-10
-Text Label 1650 1350 0    50   ~ 0
+Text Label 1600 2250 0    50   ~ 0
 GPIO1-12
-Text Label 1650 1150 0    50   ~ 0
+Text Label 1600 2450 0    50   ~ 0
 GPIO1-14
 Wire Wire Line
-	1550 2450 1650 2450
+	1500 1150 1600 1150
 Wire Wire Line
-	1550 2250 1650 2250
+	1500 1350 1600 1350
 Wire Wire Line
-	1550 2050 1650 2050
+	1500 1550 1600 1550
 Wire Wire Line
-	1550 1850 1650 1850
+	1500 1750 1600 1750
 Wire Wire Line
-	1550 1650 1650 1650
+	1500 1950 1600 1950
 Wire Wire Line
-	1550 1450 1650 1450
+	1500 2150 1600 2150
 Wire Wire Line
-	1550 1250 1650 1250
+	1500 2350 1600 2350
 Wire Wire Line
-	1550 1050 1650 1050
-Text Label 1650 2450 0    50   ~ 0
+	1500 2550 1600 2550
+Text Label 1600 1150 0    50   ~ 0
 GPIO1-1
-Text Label 1650 2250 0    50   ~ 0
+Text Label 1600 1350 0    50   ~ 0
 GPIO1-3
-Text Label 1650 2050 0    50   ~ 0
+Text Label 1600 1550 0    50   ~ 0
 GPIO1-5
-Text Label 1650 1850 0    50   ~ 0
+Text Label 1600 1750 0    50   ~ 0
 GPIO1-7
-Text Label 1650 1650 0    50   ~ 0
+Text Label 1600 1950 0    50   ~ 0
 GPIO1-9
-Text Label 1650 1450 0    50   ~ 0
+Text Label 1600 2150 0    50   ~ 0
 GPIO1-11
-Text Label 1650 1250 0    50   ~ 0
+Text Label 1600 2350 0    50   ~ 0
 GPIO1-13
-Text Label 1650 1050 0    50   ~ 0
+Text Label 1600 2550 0    50   ~ 0
 GPIO1-15
-Text GLabel 1550 2550 0    50   Input ~ 0
+Text GLabel 1500 1050 0    50   Input ~ 0
 GPIO1-0
-Text GLabel 1550 2450 0    50   Input ~ 0
+Text GLabel 1500 1150 0    50   Input ~ 0
 GPIO1-1
-Text GLabel 1550 2350 0    50   Input ~ 0
+Text GLabel 1500 1250 0    50   Input ~ 0
 GPIO1-2
-Text GLabel 1550 2250 0    50   Input ~ 0
+Text GLabel 1500 1350 0    50   Input ~ 0
 GPIO1-3
-Text GLabel 1550 2150 0    50   Input ~ 0
+Text GLabel 1500 1450 0    50   Input ~ 0
 GPIO1-4
-Text GLabel 1550 2050 0    50   Input ~ 0
+Text GLabel 1500 1550 0    50   Input ~ 0
 GPIO1-5
-Text GLabel 1550 1950 0    50   Input ~ 0
+Text GLabel 1500 1650 0    50   Input ~ 0
 GPIO1-6
-Text GLabel 1550 1850 0    50   Input ~ 0
+Text GLabel 1500 1750 0    50   Input ~ 0
 GPIO1-7
-Text GLabel 1550 1750 0    50   Input ~ 0
+Text GLabel 1500 1850 0    50   Input ~ 0
 GPIO1-8
-Text GLabel 1550 1650 0    50   Input ~ 0
+Text GLabel 1500 1950 0    50   Input ~ 0
 GPIO1-9
-Text GLabel 1550 1550 0    50   Input ~ 0
+Text GLabel 1500 2050 0    50   Input ~ 0
 GPIO1-10
-Text GLabel 1550 1450 0    50   Input ~ 0
+Text GLabel 1500 2150 0    50   Input ~ 0
 GPIO1-11
-Text GLabel 1550 1350 0    50   Input ~ 0
+Text GLabel 1500 2250 0    50   Input ~ 0
 GPIO1-12
-Text GLabel 1550 1250 0    50   Input ~ 0
+Text GLabel 1500 2350 0    50   Input ~ 0
 GPIO1-13
-Text GLabel 1550 1150 0    50   Input ~ 0
+Text GLabel 1500 2450 0    50   Input ~ 0
 GPIO1-14
-Text GLabel 1550 1050 0    50   Input ~ 0
+Text GLabel 1500 2550 0    50   Input ~ 0
 GPIO1-15
 Wire Wire Line
 	8050 2150 7950 2150
@@ -282,29 +285,29 @@ Text Label 7950 750  2    50   ~ 0
 DPS_MOSI
 Text Label 7950 1250 2    50   ~ 0
 DPS_MISO
-Text GLabel 1550 3600 0    50   Input ~ 0
-5v_GPIO_0
-Text GLabel 1550 3500 0    50   Input ~ 0
-5v_GPIO_1
-Text GLabel 1550 3400 0    50   Input ~ 0
-5v_GPIO_2
 Text GLabel 1550 3300 0    50   Input ~ 0
+5v_GPIO_0
+Text GLabel 1550 3400 0    50   Input ~ 0
+5v_GPIO_1
+Text GLabel 1550 3500 0    50   Input ~ 0
+5v_GPIO_2
+Text GLabel 1550 3600 0    50   Input ~ 0
 5v_GPIO_3
 Wire Wire Line
-	1550 3300 1650 3300
-Wire Wire Line
-	1550 3400 1650 3400
+	1550 3600 1650 3600
 Wire Wire Line
 	1550 3500 1650 3500
 Wire Wire Line
-	1550 3600 1650 3600
-Text Label 1650 3300 0    50   ~ 0
-5v_GPIO_3
-Text Label 1650 3400 0    50   ~ 0
-5v_GPIO_2
-Text Label 1650 3500 0    50   ~ 0
-5v_GPIO_1
+	1550 3400 1650 3400
+Wire Wire Line
+	1550 3300 1650 3300
 Text Label 1650 3600 0    50   ~ 0
+5v_GPIO_3
+Text Label 1650 3500 0    50   ~ 0
+5v_GPIO_2
+Text Label 1650 3400 0    50   ~ 0
+5v_GPIO_1
+Text Label 1650 3300 0    50   ~ 0
 5v_GPIO_0
 Wire Wire Line
 	5150 3050 5050 3050
@@ -362,41 +365,41 @@ Text Label 5050 1650 2    50   ~ 0
 ADC_MISO
 Text Label 5050 1550 2    50   ~ 0
 ADC_SCLK
-Text Label 1650 4800 0    50   ~ 0
-FTDI-ACBUS4
-Text Label 1650 4700 0    50   ~ 0
-FTDI-ACBUS5
-Text Label 1650 4600 0    50   ~ 0
-FTDI-ACBUS6
-Text Label 1650 4500 0    50   ~ 0
-FTDI-ACBUS7
-Wire Wire Line
-	1650 4800 1550 4800
-Wire Wire Line
-	1650 4700 1550 4700
-Wire Wire Line
-	1650 4600 1550 4600
-Wire Wire Line
-	1650 4500 1550 4500
-Text GLabel 1550 4800 0    50   Input ~ 0
-FTDI-ACBUS4
-Text GLabel 1550 4700 0    50   Input ~ 0
-FTDI-ACBUS5
-Text GLabel 1550 4600 0    50   Input ~ 0
-FTDI-ACBUS6
-Text GLabel 1550 4500 0    50   Input ~ 0
-FTDI-ACBUS7
-Text Label 1650 4400 0    50   ~ 0
-FTDI-ACBUS8
 Text Label 1650 4300 0    50   ~ 0
-FTDI-ACBUS9
+FTDI-ACBUS4
+Text Label 1650 4400 0    50   ~ 0
+FTDI-ACBUS5
+Text Label 1650 4500 0    50   ~ 0
+FTDI-ACBUS6
+Text Label 1650 4600 0    50   ~ 0
+FTDI-ACBUS7
+Wire Wire Line
+	1650 4300 1550 4300
 Wire Wire Line
 	1650 4400 1550 4400
 Wire Wire Line
-	1650 4300 1550 4300
-Text GLabel 1550 4400 0    50   Input ~ 0
-FTDI-ACBUS8
+	1650 4500 1550 4500
+Wire Wire Line
+	1650 4600 1550 4600
 Text GLabel 1550 4300 0    50   Input ~ 0
+FTDI-ACBUS4
+Text GLabel 1550 4400 0    50   Input ~ 0
+FTDI-ACBUS5
+Text GLabel 1550 4500 0    50   Input ~ 0
+FTDI-ACBUS6
+Text GLabel 1550 4600 0    50   Input ~ 0
+FTDI-ACBUS7
+Text Label 1650 4700 0    50   ~ 0
+FTDI-ACBUS8
+Text Label 1650 4800 0    50   ~ 0
+FTDI-ACBUS9
+Wire Wire Line
+	1650 4700 1550 4700
+Wire Wire Line
+	1650 4800 1550 4800
+Text GLabel 1550 4700 0    50   Input ~ 0
+FTDI-ACBUS8
+Text GLabel 1550 4800 0    50   Input ~ 0
 FTDI-ACBUS9
 Text Label 5050 650  2    50   ~ 0
 FTDI-ACBUS4
