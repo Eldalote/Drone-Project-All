@@ -482,8 +482,6 @@ Wire Wire Line
 	1600 3550 1500 3550
 Text Label 1500 2950 2    50   ~ 0
 MOSI
-Text Label 3950 1300 3    50   ~ 0
-MISO
 Text Label 1500 3150 2    50   ~ 0
 SCLK
 Text Label 1500 3250 2    50   ~ 0
@@ -823,94 +821,6 @@ F 3 "" H 7500 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6750 2850
-$Comp
-L Connector:TestPoint TP801
-U 1 1 60AF8D62
-P 3450 1200
-F 0 "TP801" H 3508 1318 50  0000 L CNN
-F 1 "TestPoint" H 3508 1227 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 3650 1200 50  0001 C CNN
-F 3 "~" H 3650 1200 50  0001 C CNN
-	1    3450 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP804
-U 1 1 60AFE54C
-P 4950 1200
-F 0 "TP804" H 5008 1318 50  0000 L CNN
-F 1 "TestPoint" H 5008 1227 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 5150 1200 50  0001 C CNN
-F 3 "~" H 5150 1200 50  0001 C CNN
-	1    4950 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP802
-U 1 1 60AFEA30
-P 3950 1200
-F 0 "TP802" H 4008 1318 50  0000 L CNN
-F 1 "TestPoint" H 4008 1227 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 4150 1200 50  0001 C CNN
-F 3 "~" H 4150 1200 50  0001 C CNN
-	1    3950 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP803
-U 1 1 60AFEFB9
-P 4450 1200
-F 0 "TP803" H 4508 1318 50  0000 L CNN
-F 1 "TestPoint" H 4508 1227 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 4650 1200 50  0001 C CNN
-F 3 "~" H 4650 1200 50  0001 C CNN
-	1    4450 1200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3450 1200 3450 1300
-Wire Wire Line
-	3950 1300 3950 1200
-Wire Wire Line
-	4450 1300 4450 1200
-Wire Wire Line
-	4950 1300 4950 1200
-Text Label 3450 1300 3    50   ~ 0
-MOSI
 Text Label 1500 3050 2    50   ~ 0
 MISO
-Text Label 4450 1300 3    50   ~ 0
-SCLK
-Text Label 4950 1300 3    50   ~ 0
-~CS
-$Comp
-L Connector:TestPoint TP805
-U 1 1 60B23A5C
-P 5450 1200
-F 0 "TP805" H 5508 1318 50  0000 L CNN
-F 1 "TestPoint" H 5508 1227 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 5650 1200 50  0001 C CNN
-F 3 "~" H 5650 1200 50  0001 C CNN
-	1    5450 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP806
-U 1 1 60B28F74
-P 5950 1200
-F 0 "TP806" H 6008 1318 50  0000 L CNN
-F 1 "TestPoint" H 6008 1227 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 6150 1200 50  0001 C CNN
-F 3 "~" H 6150 1200 50  0001 C CNN
-	1    5950 1200
-	1    0    0    -1  
-$EndComp
-Text Label 5450 1300 3    50   ~ 0
-CE
-Wire Wire Line
-	5450 1200 5450 1300
-Wire Wire Line
-	5950 1300 5950 1200
-Text Label 5950 1300 3    50   ~ 0
-IRQ
 $EndSCHEMATC
